@@ -134,10 +134,11 @@ UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
 UsedLibrary="C:/Users/samuel/Documents/EAGLE/libraries/ESP32-DEVKITV1.lbr"
-UsedLibrary="C:/Users/samuel/Documents/EAGLE/libraries/con-jst-custom.lbr"
 UsedLibrary="C:/Users/samuel/Documents/EAGLE/libraries/MCP2515.lbr"
 UsedLibrary="C:/Users/samuel/Documents/EAGLE/libraries/MPU9250.lbr"
 UsedLibrary="C:/Users/samuel/Documents/EAGLE/libraries/PSU.lbr"
+UsedLibrary="C:/Users/samuel/Documents/EAGLE/libraries/con-jst-custom.lbr"
+UsedLibrary="libraries/sd-mmc.lbr"
 
 [Win_1]
 Type="Control Panel"
