@@ -139,6 +139,8 @@ UsedLibrary="C:/Users/samuel/Documents/EAGLE/libraries/MPU9250.lbr"
 UsedLibrary="C:/Users/samuel/Documents/EAGLE/libraries/PSU.lbr"
 UsedLibrary="C:/Users/samuel/Documents/EAGLE/libraries/con-jst-custom.lbr"
 UsedLibrary="libraries/sd-mmc.lbr"
+UsedLibrary="C:/Users/samuel/Documents/EAGLE/libraries/A9.lbr"
+UsedLibrary="C:/Users/samuel/Documents/EAGLE/libraries/level-converter.lbr"
 
 [Win_1]
 Type="Control Panel"
