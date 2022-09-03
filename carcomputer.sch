@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -476,6 +476,36 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <text x="1.27" y="-0.889" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-5.08" y1="-1.27" x2="-3.81" y2="1.27" layer="21"/>
 </package>
+<package name="RT-N/O12A3.5" urn="urn:adsk.eagle:footprint:24202/1" library_version="4">
+<description>&lt;b&gt;Power PCB Relay 1 pole 12 / 16 A, DC- or AC-coil&lt;/b&gt; SCHRACK&lt;p&gt;
+12A, pinning 3.5 mm&lt;br&gt;
+Source: http://www.schrack.com/.. 5819.pdf</description>
+<wire x1="-14.8" y1="6.25" x2="14" y2="6.25" width="0.2032" layer="21"/>
+<wire x1="14" y1="6.25" x2="14" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="14" y1="-6.25" x2="-14.8" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="-14.8" y1="-6.25" x2="-14.8" y2="6.25" width="0.2032" layer="21"/>
+<pad name="11" x="7.56" y="3.78" drill="1.3" diameter="3"/>
+<pad name="14" x="11.1" y="-3.78" drill="1.3" diameter="3"/>
+<pad name="A1" x="-12.6" y="-3.78" drill="1.3"/>
+<pad name="A2" x="-12.6" y="3.78" drill="1.3"/>
+<text x="-10.16" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="RT-N/O12A5" urn="urn:adsk.eagle:footprint:24203/1" library_version="4">
+<description>&lt;b&gt;Power PCB Relay 1 pole 12 / 16 A, DC- or AC-coil&lt;/b&gt; SCHRACK&lt;p&gt;
+12 A, pinning 5mm&lt;br&gt;
+Source: http://www.schrack.com/.. 5819.pdf</description>
+<wire x1="-14.8" y1="6.25" x2="14" y2="6.25" width="0.2032" layer="21"/>
+<wire x1="14" y1="6.25" x2="14" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="14" y1="-6.25" x2="-14.8" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="-14.8" y1="-6.25" x2="-14.8" y2="6.25" width="0.2032" layer="21"/>
+<pad name="11" x="7.56" y="3.78" drill="1.3" diameter="3"/>
+<pad name="14" x="12.6" y="-3.78" drill="1.3" diameter="3"/>
+<pad name="A1" x="-12.6" y="-3.78" drill="1.3"/>
+<pad name="A2" x="-12.6" y="3.78" drill="1.3"/>
+<text x="-10.16" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="351" urn="urn:adsk.eagle:package:24300/1" type="box" library_version="4">
@@ -483,6 +513,22 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 2 x switch, same as G5 V-2, Omron</description>
 <packageinstances>
 <packageinstance name="351"/>
+</packageinstances>
+</package3d>
+<package3d name="RT-N/O12A3.5" urn="urn:adsk.eagle:package:24497/1" type="box" library_version="4">
+<description>Power PCB Relay 1 pole 12 / 16 A, DC- or AC-coil SCHRACK
+12A, pinning 3.5 mm
+Source: http://www.schrack.com/.. 5819.pdf</description>
+<packageinstances>
+<packageinstance name="RT-N/O12A3.5"/>
+</packageinstances>
+</package3d>
+<package3d name="RT-N/O12A5" urn="urn:adsk.eagle:package:24498/1" type="box" library_version="4">
+<description>Power PCB Relay 1 pole 12 / 16 A, DC- or AC-coil SCHRACK
+12 A, pinning 5mm
+Source: http://www.schrack.com/.. 5819.pdf</description>
+<packageinstances>
+<packageinstance name="RT-N/O12A5"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -515,6 +561,15 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pin name="S" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
 <pin name="P" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
+<symbol name="S" urn="urn:adsk.eagle:symbol:23960/1" library_version="4">
+<wire x1="0" y1="3.175" x2="0" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.175" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.905" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<circle x="0" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="95" rot="R90">&gt;PART</text>
+<pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="351" urn="urn:adsk.eagle:component:24579/1" prefix="K" library_version="4">
@@ -542,6 +597,212 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RT?*" urn="urn:adsk.eagle:component:24770/1" prefix="K" library_version="4">
+<description>&lt;b&gt;Power PCB Relay&lt;/b&gt; SCHRACK&lt;p&gt;
+1 pole 12 / 16 A, DC- or AC-coil&lt;br&gt;
+Source: http://www.schrack.com/.. 5819.pdf</description>
+<gates>
+<gate name="1" symbol="K" x="-10.16" y="0" addlevel="must"/>
+<gate name="2" symbol="S" x="7.62" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="B3" package="RT-N/O12A3.5">
+<connects>
+<connect gate="1" pin="1" pad="A1"/>
+<connect gate="1" pin="2" pad="A2"/>
+<connect gate="2" pin="P" pad="11"/>
+<connect gate="2" pin="S" pad="14"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24497/1"/>
+</package3dinstances>
+<technologies>
+<technology name="4005">
+<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
+<attribute name="MPN" value="RTB34005F" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="08H3696" constant="no"/>
+</technology>
+<technology name="4006">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4012">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="RTB34012" constant="no"/>
+<attribute name="OC_FARNELL" value="9865071" constant="no"/>
+<attribute name="OC_NEWARK" value="48M7873" constant="no"/>
+</technology>
+<technology name="4024">
+<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
+<attribute name="MPN" value="RTB34024F" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="35K3224" constant="no"/>
+</technology>
+<technology name="4048">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4060">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4110">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4524">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4615">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4730">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="RTB34730" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="48M7874" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="C3" package="RT-N/O12A5">
+<connects>
+<connect gate="1" pin="1" pad="A1"/>
+<connect gate="1" pin="2" pad="A2"/>
+<connect gate="2" pin="P" pad="11"/>
+<connect gate="2" pin="S" pad="14"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24498/1"/>
+</package3dinstances>
+<technologies>
+<technology name="4005">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4006">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4012">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4024">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4048">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4060">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4110">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4524">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4615">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4730">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="184" package="RT-N/O12A3.5">
+<connects>
+<connect gate="1" pin="1" pad="A1"/>
+<connect gate="1" pin="2" pad="A2"/>
+<connect gate="2" pin="P" pad="11"/>
+<connect gate="2" pin="S" pad="14"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24497/1"/>
+</package3dinstances>
+<technologies>
+<technology name="005">
+<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
+<attribute name="MPN" value="RT184005" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="08H3730" constant="no"/>
+</technology>
+<technology name="006">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="012">
+<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
+<attribute name="MPN" value="RT184012" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="08H3731" constant="no"/>
+</technology>
+<technology name="024">
+<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
+<attribute name="MPN" value="RT184024" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="08H3733" constant="no"/>
+</technology>
+<technology name="048">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="060">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
@@ -8229,76 +8490,6 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor" urn="urn:adsk.eagle:library:402">
-<description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="TO5" urn="urn:adsk.eagle:footprint:28657/1" library_version="5">
-<description>&lt;b&gt;TO 5&lt;/b&gt;</description>
-<wire x1="-4.0386" y1="-3.5306" x2="-3.5052" y2="-2.9972" width="0.127" layer="21"/>
-<wire x1="-2.9718" y1="-3.5306" x2="-3.5052" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="-3.5052" y1="-4.064" x2="-4.0386" y2="-3.5306" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="4.572" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3.8608" width="0.0508" layer="21"/>
-<pad name="1" x="0" y="-2.54" drill="0.8128" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
-<pad name="3" x="0" y="2.54" drill="0.8128" shape="octagon"/>
-<text x="-2.54" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="TO5" urn="urn:adsk.eagle:package:28729/1" type="box" library_version="5">
-<description>TO 5</description>
-<packageinstances>
-<packageinstance name="TO5"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="NPN" urn="urn:adsk.eagle:symbol:29821/1" library_version="5">
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
-<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
-<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="2N2219" urn="urn:adsk.eagle:component:29966/2" prefix="T" library_version="5">
-<description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO5">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28729/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="diode" urn="urn:adsk.eagle:library:210">
 <description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
 Based on the following sources:
@@ -10499,6 +10690,86 @@ grid 2.54 mm</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="transistor-npn" urn="urn:adsk.eagle:library:398">
+<description>&lt;b&gt;NPN Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TO92-EBC" urn="urn:adsk.eagle:footprint:28938/1" library_version="3">
+<description>&lt;b&gt;TO-92&lt;/b&gt;&lt;p&gt;
+ grid 5.08 mm</description>
+<wire x1="-2.095" y1="-2.921" x2="2.095" y2="-2.921" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="-0.1341" x2="2.413" y2="-0.1341" width="0.127" layer="21" curve="-129.583"/>
+<wire x1="1.136" y1="-1.397" x2="-1.136" y2="-1.397" width="0.127" layer="51"/>
+<wire x1="-2.413" y1="-0.1341" x2="-2.664" y2="-1.397" width="0.127" layer="51" curve="27.9376"/>
+<wire x1="-2.664" y1="-1.397" x2="-2.413" y2="-2.4059" width="0.127" layer="51" curve="22.4788"/>
+<wire x1="-1.404" y1="-1.397" x2="-2.664" y2="-1.397" width="0.127" layer="51"/>
+<wire x1="-2.4135" y1="-2.4059" x2="-2.095" y2="-2.921" width="0.127" layer="21" curve="13.0385"/>
+<wire x1="-1.136" y1="-1.397" x2="-1.404" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="2.413" y1="-2.4059" x2="2.664" y2="-1.397" width="0.127" layer="51" curve="22.4788"/>
+<wire x1="2.664" y1="-1.397" x2="2.413" y2="-0.1341" width="0.127" layer="51" curve="27.9376"/>
+<wire x1="2.664" y1="-1.397" x2="1.404" y2="-1.397" width="0.127" layer="51"/>
+<wire x1="1.404" y1="-1.397" x2="1.136" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="2.095" y1="-2.921" x2="2.4247" y2="-2.3818" width="0.127" layer="21" curve="13.6094"/>
+<pad name="C" x="-2.54" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
+<pad name="E" x="2.54" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
+<pad name="B" x="0" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
+<text x="-2.54" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-4.572" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TO92-EBC" urn="urn:adsk.eagle:package:28989/2" type="model" library_version="3">
+<description>TO-92
+ grid 5.08 mm</description>
+<packageinstances>
+<packageinstance name="TO92-EBC"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="NPN" urn="urn:adsk.eagle:symbol:28915/1" library_version="3">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BC618*" urn="urn:adsk.eagle:component:29119/2" prefix="Q" library_version="3">
+<description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92-EBC">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28989/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10520,7 +10791,7 @@ grid 2.54 mm</description>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="680"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-050X050" package3d_urn="urn:adsk.eagle:package:23633/1" value="100u"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-050X050" package3d_urn="urn:adsk.eagle:package:23633/1" value="100u"/>
-<part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N2219" device="" package3d_urn="urn:adsk.eagle:package:28729/1"/>
+<part name="T1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC618*" device="" package3d_urn="urn:adsk.eagle:package:28989/2"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/2"/>
 <part name="STEERING_WHEEL" library="con-jst-custom" deviceset="?3B-ZR" device="B"/>
 <part name="DISPLAY" library="con-jst-custom" deviceset="?4B-ZR" device="B" package3d_urn="urn:adsk.eagle:package:7642/1"/>
@@ -10615,7 +10886,7 @@ grid 2.54 mm</description>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N2219" device="" package3d_urn="urn:adsk.eagle:package:28729/1"/>
+<part name="T2" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC618*" device="" package3d_urn="urn:adsk.eagle:package:28989/2"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="150"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-050X050" package3d_urn="urn:adsk.eagle:package:23633/1" value="100u"/>
@@ -10652,6 +10923,20 @@ grid 2.54 mm</description>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="&gt;65"/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-050X050" package3d_urn="urn:adsk.eagle:package:23633/1" value="0.1u"/>
+<part name="ENGINE_CUTOFF_CONN" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
+<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="2k"/>
+<part name="T3" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC618*" device="" package3d_urn="urn:adsk.eagle:package:28989/2"/>
+<part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/2"/>
+<part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="K3" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="RT?*" device="184" package3d_urn="urn:adsk.eagle:package:24497/1" technology="012"/>
+<part name="CLAXON_CONN" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
+<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="2k"/>
+<part name="T4" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC618*" device="" package3d_urn="urn:adsk.eagle:package:28989/2"/>
+<part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/2"/>
+<part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="K2" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="RT?*" device="184" package3d_urn="urn:adsk.eagle:package:24497/1" technology="012"/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10745,6 +11030,36 @@ protection</text>
 <wire x1="510.54" y1="167.64" x2="365.76" y2="167.64" width="0.1524" layer="97" style="longdash"/>
 <text x="434.34" y="160.02" size="1.778" layer="97">EXAMPLES</text>
 <text x="182.88" y="124.46" size="1.778" layer="97">Checked</text>
+<text x="162.306" y="-56.896" size="1.778" layer="95">ENGINE CUTOFF CIRCUIT</text>
+<wire x1="107.95" y1="-81.28" x2="101.854" y2="-81.28" width="0.1524" layer="97"/>
+<wire x1="101.854" y1="-81.28" x2="101.6" y2="-74.676" width="0.1524" layer="97"/>
+<wire x1="101.854" y1="-81.28" x2="94.234" y2="-81.28" width="0.1524" layer="97"/>
+<wire x1="94.234" y1="-81.28" x2="94.234" y2="-85.09" width="0.1524" layer="97"/>
+<wire x1="108.458" y1="-96.774" x2="101.854" y2="-96.774" width="0.1524" layer="97"/>
+<wire x1="101.854" y1="-96.774" x2="94.234" y2="-96.774" width="0.1524" layer="97"/>
+<wire x1="94.234" y1="-96.774" x2="94.234" y2="-91.948" width="0.1524" layer="97"/>
+<wire x1="101.854" y1="-96.774" x2="101.854" y2="-104.394" width="0.1524" layer="97"/>
+<circle x="94.234" y="-85.852" radius="0.71841875" width="0.1524" layer="97"/>
+<circle x="94.234" y="-91.186" radius="0.71841875" width="0.1524" layer="97"/>
+<wire x1="93.98" y1="-86.614" x2="92.202" y2="-91.44" width="0.1524" layer="97"/>
+<text x="88.9" y="-96.266" size="1.778" layer="97" rot="R90">Manual override</text>
+<text x="162.306" y="-140.97" size="1.778" layer="95">CLAXON CIRCUIT</text>
+<wire x1="117.856" y1="-162.56" x2="111.76" y2="-162.56" width="0.1524" layer="97"/>
+<wire x1="111.76" y1="-162.56" x2="111.76" y2="-152.4" width="0.1524" layer="97"/>
+<wire x1="111.76" y1="-162.56" x2="104.14" y2="-162.56" width="0.1524" layer="97"/>
+<wire x1="104.14" y1="-162.56" x2="104.14" y2="-166.37" width="0.1524" layer="97"/>
+<wire x1="118.364" y1="-178.054" x2="111.76" y2="-178.054" width="0.1524" layer="97"/>
+<wire x1="111.76" y1="-178.054" x2="104.14" y2="-178.054" width="0.1524" layer="97"/>
+<wire x1="104.14" y1="-178.054" x2="104.14" y2="-173.228" width="0.1524" layer="97"/>
+<wire x1="111.76" y1="-178.054" x2="111.76" y2="-185.674" width="0.1524" layer="97"/>
+<circle x="104.14" y="-167.132" radius="0.71841875" width="0.1524" layer="97"/>
+<circle x="104.14" y="-172.466" radius="0.71841875" width="0.1524" layer="97"/>
+<wire x1="102.616" y1="-166.624" x2="102.616" y2="-169.418" width="0.1524" layer="97"/>
+<text x="98.806" y="-182.626" size="1.778" layer="97" rot="R90">Steering wheel claxon</text>
+<wire x1="102.616" y1="-169.418" x2="102.616" y2="-172.72" width="0.1524" layer="97"/>
+<wire x1="102.616" y1="-169.418" x2="101.346" y2="-169.418" width="0.1524" layer="97"/>
+<wire x1="101.346" y1="-169.418" x2="101.346" y2="-168.656" width="0.1524" layer="97"/>
+<wire x1="101.346" y1="-169.418" x2="101.346" y2="-170.18" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="-45.72" y="40.64" smashed="yes" rot="R90">
@@ -11272,6 +11587,70 @@ protection</text>
 <attribute name="NAME" x="218.821" y="115.316" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="213.741" y="115.316" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="ENGINE_CUTOFF_CONN" gate="-1" x="142.24" y="-81.28" smashed="yes">
+<attribute name="NAME" x="140.97" y="-80.391" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="ENGINE_CUTOFF_CONN" gate="-2" x="142.24" y="-96.52" smashed="yes">
+<attribute name="NAME" x="140.97" y="-95.631" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="138.43" y="-100.203" size="1.778" layer="96"/>
+</instance>
+<instance part="R32" gate="G$1" x="185.42" y="-101.6" smashed="yes">
+<attribute name="NAME" x="181.61" y="-100.1014" size="1.778" layer="95"/>
+<attribute name="VALUE" x="181.61" y="-104.902" size="1.778" layer="96"/>
+</instance>
+<instance part="T3" gate="G$1" x="172.72" y="-101.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="177.8" y="-104.14" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="180.34" y="-106.68" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="D7" gate="G$1" x="180.34" y="-88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="179.8574" y="-86.36" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="182.6514" y="-86.36" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND42" gate="1" x="170.18" y="-111.76" smashed="yes">
+<attribute name="VALUE" x="167.64" y="-114.3" size="1.778" layer="96"/>
+</instance>
+<instance part="K3" gate="1" x="170.18" y="-88.9" smashed="yes" rot="R180">
+<attribute name="VALUE" x="168.91" y="-91.821" size="1.778" layer="96" rot="R180"/>
+<attribute name="PART" x="168.91" y="-93.98" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="K3" gate="2" x="152.4" y="-88.9" smashed="yes" rot="R180">
+<attribute name="PART" x="154.94" y="-86.36" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="CLAXON_CONN" gate="-1" x="142.24" y="-162.56" smashed="yes">
+<attribute name="NAME" x="140.97" y="-161.671" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="CLAXON_CONN" gate="-2" x="142.24" y="-177.8" smashed="yes">
+<attribute name="NAME" x="140.97" y="-176.911" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="138.43" y="-181.483" size="1.778" layer="96"/>
+</instance>
+<instance part="R33" gate="G$1" x="185.42" y="-182.88" smashed="yes">
+<attribute name="NAME" x="181.61" y="-181.3814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="181.61" y="-186.182" size="1.778" layer="96"/>
+</instance>
+<instance part="T4" gate="G$1" x="172.72" y="-182.88" smashed="yes" rot="MR0">
+<attribute name="NAME" x="177.8" y="-185.42" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="180.34" y="-187.96" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="D8" gate="G$1" x="180.34" y="-170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="179.8574" y="-167.64" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="182.6514" y="-167.64" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND43" gate="1" x="170.18" y="-193.04" smashed="yes">
+<attribute name="VALUE" x="167.64" y="-195.58" size="1.778" layer="96"/>
+</instance>
+<instance part="K2" gate="1" x="170.18" y="-170.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="168.91" y="-173.101" size="1.778" layer="96" rot="R180"/>
+<attribute name="PART" x="168.91" y="-175.26" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="K2" gate="2" x="152.4" y="-170.18" smashed="yes" rot="R180">
+<attribute name="PART" x="154.94" y="-167.64" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="P+5" gate="1" x="170.18" y="-71.12" smashed="yes">
+<attribute name="VALUE" x="167.894" y="-72.644" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+20" gate="1" x="170.18" y="-152.4" smashed="yes">
+<attribute name="VALUE" x="167.894" y="-153.67" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11736,6 +12115,16 @@ protection</text>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="114.3" x2="213.36" y2="116.84" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="T3" gate="G$1" pin="E"/>
+<pinref part="GND42" gate="1" pin="GND"/>
+<wire x1="170.18" y1="-106.68" x2="170.18" y2="-109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="T4" gate="G$1" pin="E"/>
+<pinref part="GND43" gate="1" pin="GND"/>
+<wire x1="170.18" y1="-187.96" x2="170.18" y2="-190.5" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -12044,6 +12433,26 @@ protection</text>
 <pinref part="P+23" gate="1" pin="+12V"/>
 <wire x1="414.02" y1="137.16" x2="414.02" y2="132.08" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="K2" gate="1" pin="2"/>
+<wire x1="170.18" y1="-165.1" x2="170.18" y2="-162.56" width="0.1524" layer="91"/>
+<pinref part="D8" gate="G$1" pin="C"/>
+<wire x1="180.34" y1="-167.64" x2="180.34" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-162.56" x2="170.18" y2="-162.56" width="0.1524" layer="91"/>
+<pinref part="P+20" gate="1" pin="+12V"/>
+<wire x1="170.18" y1="-162.56" x2="170.18" y2="-154.94" width="0.1524" layer="91"/>
+<junction x="170.18" y="-162.56"/>
+</segment>
+<segment>
+<pinref part="K3" gate="1" pin="2"/>
+<wire x1="170.18" y1="-83.82" x2="170.18" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="D7" gate="G$1" pin="C"/>
+<wire x1="180.34" y1="-86.36" x2="180.34" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-81.28" x2="170.18" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="P+5" gate="1" pin="+12V"/>
+<wire x1="170.18" y1="-73.66" x2="170.18" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="170.18" y="-81.28"/>
+</segment>
 </net>
 <net name="PWR_ENABLE" class="0">
 <segment>
@@ -12161,22 +12570,12 @@ protection</text>
 <wire x1="-17.78" y1="-38.1" x2="-12.7" y2="-38.1" width="0.1524" layer="91"/>
 <label x="-12.7" y="-38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="IO26"/>
-<wire x1="-63.5" y1="33.02" x2="-66.04" y2="33.02" width="0.1524" layer="91"/>
-<label x="-66.04" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="IO25" class="0">
 <segment>
 <pinref part="JP_IO25" gate="A" pin="2"/>
 <wire x1="-48.26" y1="-38.1" x2="-43.18" y2="-38.1" width="0.1524" layer="91"/>
 <label x="-43.18" y="-38.1" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="IO25"/>
-<wire x1="-63.5" y1="35.56" x2="-66.04" y2="35.56" width="0.1524" layer="91"/>
-<label x="-66.04" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SD_CS" class="0">
@@ -12453,6 +12852,98 @@ protection</text>
 <pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="86.36" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
 <junction x="210.82" y="86.36"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="D7" gate="G$1" pin="A"/>
+<wire x1="180.34" y1="-91.44" x2="180.34" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="K3" gate="1" pin="1"/>
+<pinref part="T3" gate="G$1" pin="C"/>
+<wire x1="170.18" y1="-96.52" x2="170.18" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-96.52" x2="170.18" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="170.18" y="-96.52"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="T3" gate="G$1" pin="B"/>
+<pinref part="R32" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="-101.6" x2="180.34" y2="-101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ENGINE_CUTOFF_DISABLE" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="IO26"/>
+<wire x1="-63.5" y1="33.02" x2="-66.04" y2="33.02" width="0.1524" layer="91"/>
+<label x="-66.04" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="-101.6" x2="193.04" y2="-101.6" width="0.1524" layer="91"/>
+<label x="193.04" y="-101.6" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="ENGINE_CUTOFF_CONN" gate="-1" pin="KL"/>
+<wire x1="147.32" y1="-81.28" x2="152.4" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="K3" gate="2" pin="P"/>
+<wire x1="152.4" y1="-81.28" x2="152.4" y2="-83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="ENGINE_CUTOFF_CONN" gate="-2" pin="KL"/>
+<pinref part="K3" gate="2" pin="S"/>
+<wire x1="147.32" y1="-96.52" x2="152.4" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="-96.52" x2="152.4" y2="-93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="D8" gate="G$1" pin="A"/>
+<wire x1="180.34" y1="-172.72" x2="180.34" y2="-177.8" width="0.1524" layer="91"/>
+<pinref part="K2" gate="1" pin="1"/>
+<pinref part="T4" gate="G$1" pin="C"/>
+<wire x1="170.18" y1="-177.8" x2="170.18" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-177.8" x2="170.18" y2="-177.8" width="0.1524" layer="91"/>
+<junction x="170.18" y="-177.8"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="T4" gate="G$1" pin="B"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="-182.88" x2="180.34" y2="-182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="CLAXON_CONN" gate="-1" pin="KL"/>
+<wire x1="147.32" y1="-162.56" x2="152.4" y2="-162.56" width="0.1524" layer="91"/>
+<pinref part="K2" gate="2" pin="P"/>
+<wire x1="152.4" y1="-162.56" x2="152.4" y2="-165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="CLAXON_CONN" gate="-2" pin="KL"/>
+<pinref part="K2" gate="2" pin="S"/>
+<wire x1="147.32" y1="-177.8" x2="152.4" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="-177.8" x2="152.4" y2="-175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CLAXON_ENABLE" class="0">
+<segment>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="-182.88" x2="193.04" y2="-182.88" width="0.1524" layer="91"/>
+<label x="193.04" y="-182.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="IO25"/>
+<wire x1="-63.5" y1="35.56" x2="-66.04" y2="35.56" width="0.1524" layer="91"/>
+<label x="-66.04" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
