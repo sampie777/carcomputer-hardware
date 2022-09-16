@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -67,36 +67,36 @@
 <library name="ESP32-DEVKITV1">
 <packages>
 <package name="ESP32-DEVKITV1">
-<pad name="3V3" x="-15.25" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="GND@2" x="-12.71" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D15" x="-10.17" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D2" x="-7.63" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D4" x="-5.09" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D16" x="-2.55" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D17" x="-0.01" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D5" x="2.53" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D18" x="5.07" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D19" x="7.61" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D21" x="10.15" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D3" x="12.69" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D1" x="15.23" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D22" x="17.77" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="D23" x="20.31" y="-12.54" drill="1" diameter="1.9304"/>
-<pad name="VIN" x="-15.25" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="GND@1" x="-12.71" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="D13" x="-10.17" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="D12" x="-7.63" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="D14" x="-5.09" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="D27" x="-2.55" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="D26" x="-0.01" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="D25" x="2.53" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="D33" x="5.07" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="D32" x="7.61" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="D35" x="10.15" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="D34" x="12.69" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="D39" x="15.23" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="D36" x="17.77" y="12.865" drill="1" diameter="1.9304"/>
-<pad name="EN" x="20.31" y="12.865" drill="1" diameter="1.9304"/>
+<pad name="3V3" x="-15.25" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="GND@2" x="-12.71" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D15" x="-10.17" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D2" x="-7.63" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D4" x="-5.09" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D16" x="-2.55" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D17" x="-0.01" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D5" x="2.53" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D18" x="5.07" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D19" x="7.61" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D21" x="10.15" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D3" x="12.69" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D1" x="15.23" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D22" x="17.77" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="D23" x="20.31" y="-12.54" drill="1" diameter="1.6764"/>
+<pad name="VIN" x="-15.25" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="GND@1" x="-12.71" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="D13" x="-10.17" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="D12" x="-7.63" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="D14" x="-5.09" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="D27" x="-2.55" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="D26" x="-0.01" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="D25" x="2.53" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="D33" x="5.07" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="D32" x="7.61" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="D35" x="10.15" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="D34" x="12.69" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="D39" x="15.23" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="D36" x="17.77" y="12.865" drill="1" diameter="1.6764"/>
+<pad name="EN" x="20.31" y="12.865" drill="1" diameter="1.6764"/>
 <text x="-14.59" y="-10.2" size="1.016" layer="21" font="vector" rot="R90">3V3</text>
 <text x="-12.05" y="-10.2" size="1.016" layer="21" font="vector" rot="R90">GND</text>
 <text x="-9.51" y="-10.2" size="1.016" layer="21" font="vector" rot="R90">IO15</text>
@@ -395,7 +395,7 @@ Source: http://www.schrack.com/.. 5819.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="351" urn="urn:adsk.eagle:component:24579/1" prefix="K" library_version="4">
+<deviceset name="351" urn="urn:adsk.eagle:component:24579/2" prefix="K" library_version="5">
 <description>&lt;b&gt;RELAY&lt;/b&gt;&lt;p&gt;
 2 x switch, Omron</description>
 <gates>
@@ -424,12 +424,13 @@ Source: http://www.schrack.com/.. 5819.pdf</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="5" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RT?*" urn="urn:adsk.eagle:component:24770/1" prefix="K" library_version="4">
+<deviceset name="RT?*" urn="urn:adsk.eagle:component:24770/2" prefix="K" library_version="5">
 <description>&lt;b&gt;Power PCB Relay&lt;/b&gt; SCHRACK&lt;p&gt;
 1 pole 12 / 16 A, DC- or AC-coil&lt;br&gt;
 Source: http://www.schrack.com/.. 5819.pdf</description>
@@ -454,60 +455,70 @@ Source: http://www.schrack.com/.. 5819.pdf</description>
 <attribute name="MPN" value="RTB34005F" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="08H3696" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4006">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4012">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RTB34012" constant="no"/>
 <attribute name="OC_FARNELL" value="9865071" constant="no"/>
 <attribute name="OC_NEWARK" value="48M7873" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4024">
 <attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
 <attribute name="MPN" value="RTB34024F" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="35K3224" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4048">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4060">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4110">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4524">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4615">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4730">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RTB34730" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="48M7874" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -527,60 +538,70 @@ Source: http://www.schrack.com/.. 5819.pdf</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4006">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4012">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4024">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4048">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4060">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4110">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4524">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4615">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="4730">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -600,36 +621,42 @@ Source: http://www.schrack.com/.. 5819.pdf</description>
 <attribute name="MPN" value="RT184005" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="08H3730" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="006">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="012">
 <attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
 <attribute name="MPN" value="RT184012" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="08H3731" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="024">
 <attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
 <attribute name="MPN" value="RT184024" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="08H3733" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="048">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 <technology name="060">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5973,7 +6000,7 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R-EU_" urn="urn:adsk.eagle:component:23791/20" prefix="R" uservalue="yes" library_version="10">
+<deviceset name="R-EU_" urn="urn:adsk.eagle:component:23791/21" prefix="R" uservalue="yes" library_version="11">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -5989,6 +6016,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6003,6 +6031,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="70" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6017,6 +6046,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="86" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6031,6 +6061,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6045,6 +6076,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="41" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6059,6 +6091,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6073,6 +6106,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6087,6 +6121,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6101,6 +6136,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6115,6 +6151,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6129,6 +6166,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6143,6 +6181,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6157,6 +6196,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6171,6 +6211,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6185,6 +6226,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6199,6 +6241,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6213,6 +6256,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6227,6 +6271,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6241,6 +6286,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6255,6 +6301,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6269,6 +6316,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6283,6 +6331,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6297,6 +6346,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="45" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6311,6 +6361,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="17" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6325,6 +6376,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6339,6 +6391,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6353,6 +6406,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6367,6 +6421,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6381,6 +6436,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6395,6 +6451,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6409,6 +6466,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="35" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6423,6 +6481,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="79" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6437,6 +6496,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="11" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6451,6 +6511,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="81" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6465,6 +6526,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="9" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6479,6 +6541,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6493,6 +6556,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="17" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6507,6 +6571,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6521,6 +6586,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="46" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6535,6 +6601,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6549,6 +6616,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="6" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6563,6 +6631,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6577,6 +6646,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6591,6 +6661,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6605,6 +6676,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6619,6 +6691,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6633,6 +6706,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6647,6 +6721,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6661,6 +6736,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6675,6 +6751,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6689,6 +6766,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6703,6 +6781,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6717,6 +6796,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6731,6 +6811,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6745,6 +6826,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6759,6 +6841,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6773,6 +6856,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6787,6 +6871,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6801,6 +6886,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6815,6 +6901,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6829,6 +6916,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6843,6 +6931,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6857,6 +6946,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6871,6 +6961,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6885,6 +6976,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6899,6 +6991,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6913,6 +7006,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6927,6 +7021,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6941,6 +7036,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6955,6 +7051,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6969,6 +7066,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6983,6 +7081,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -6997,6 +7096,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7011,6 +7111,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7025,6 +7126,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7039,6 +7141,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7053,6 +7156,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7067,6 +7171,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7081,6 +7186,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7095,6 +7201,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7109,6 +7216,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7123,6 +7231,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7137,6 +7246,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7151,6 +7261,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7165,6 +7276,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7179,6 +7291,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7191,7 +7304,7 @@ Source: AVX .. aphvc.pdf</description>
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="C-EU" urn="urn:adsk.eagle:component:23793/45" prefix="C" uservalue="yes" library_version="10">
+<deviceset name="C-EU" urn="urn:adsk.eagle:component:23793/46" prefix="C" uservalue="yes" library_version="11">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -7207,6 +7320,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="18" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7221,6 +7335,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7235,6 +7350,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="73" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7249,6 +7365,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="88" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7263,6 +7380,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="54" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7277,6 +7395,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7291,6 +7410,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7305,6 +7425,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7319,6 +7440,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7333,6 +7455,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7347,6 +7470,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7361,6 +7485,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7375,6 +7500,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7389,6 +7515,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7403,6 +7530,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7417,6 +7545,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="56" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7431,6 +7560,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="65" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7445,6 +7575,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="14" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7459,6 +7590,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7473,6 +7605,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="16" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7487,6 +7620,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7501,6 +7635,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7515,6 +7650,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7529,6 +7665,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7543,6 +7680,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7557,6 +7695,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7571,6 +7710,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="33" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7585,6 +7725,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="29" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7599,6 +7740,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7613,6 +7755,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="9" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7627,6 +7770,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7641,6 +7785,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7655,6 +7800,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7669,6 +7815,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7683,6 +7830,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7697,6 +7845,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7711,6 +7860,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7725,6 +7875,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7739,6 +7890,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7753,6 +7905,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7767,6 +7920,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7781,6 +7935,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7795,6 +7950,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7809,6 +7965,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7823,6 +7980,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7837,6 +7995,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7851,6 +8010,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7865,6 +8025,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7879,6 +8040,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7893,6 +8055,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7907,6 +8070,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7921,6 +8085,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7935,6 +8100,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7949,6 +8115,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7963,6 +8130,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7977,6 +8145,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -7991,6 +8160,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8005,6 +8175,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8019,6 +8190,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8033,6 +8205,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8047,6 +8220,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8061,6 +8235,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8075,6 +8250,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8089,6 +8265,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8103,6 +8280,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8117,6 +8295,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="15" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8131,6 +8310,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="30" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8145,6 +8325,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="52" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8159,6 +8340,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="13" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8173,6 +8355,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8187,6 +8370,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8201,6 +8385,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8215,6 +8400,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8229,6 +8415,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8243,6 +8430,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8257,6 +8445,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8271,6 +8460,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8285,6 +8475,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8299,6 +8490,7 @@ Source: AVX .. aphvc.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -8310,263 +8502,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-</deviceset>
-</devicesets>
-</library>
-<library name="diode" urn="urn:adsk.eagle:library:210">
-<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Motorola : www.onsemi.com
-&lt;li&gt;Fairchild : www.fairchildsemi.com
-&lt;li&gt;Philips : www.semiconductors.com
-&lt;li&gt;Vishay : www.vishay.de
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DO35-10" urn="urn:adsk.eagle:footprint:43092/1" library_version="7">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2 mm, horizontal, grid 10.16 mm</description>
-<wire x1="5.08" y1="0" x2="4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.286" y1="-0.762" x2="2.286" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<pad name="C" x="-5.08" y="0" drill="0.8128" shape="long"/>
-<pad name="A" x="5.08" y="0" drill="0.8128" shape="long"/>
-<text x="-2.159" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.159" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="4.191" y2="0.254" layer="21"/>
-<rectangle x1="-4.191" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-</package>
-<package name="DO35-7" urn="urn:adsk.eagle:footprint:43093/1" library_version="7">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2 mm, horizontal, grid 7.62 mm</description>
-<wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-3.81" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="2.286" y1="0.762" x2="2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
-<pad name="C" x="-3.81" y="0" drill="0.8128" shape="long"/>
-<pad name="A" x="3.81" y="0" drill="0.8128" shape="long"/>
-<text x="-2.286" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
-<rectangle x1="-2.921" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-</package>
-<package name="DO41-10" urn="urn:adsk.eagle:footprint:43094/1" library_version="7">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2.54 mm, horizontal, grid 10.16 mm</description>
-<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.762" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="A" x="5.08" y="0" drill="1.1176"/>
-<pad name="C" x="-5.08" y="0" drill="1.1176"/>
-<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
-<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
-<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
-</package>
-<package name="DO41Z10" urn="urn:adsk.eagle:footprint:43100/1" library_version="7">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2.54 mm, horizontal, grid 10.16 mm</description>
-<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0" x2="3.937" y2="0" width="0.762" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.254" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<pad name="C" x="-5.08" y="0" drill="1.1176"/>
-<pad name="A" x="5.08" y="0" drill="1.1176"/>
-<text x="-1.905" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.905" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
-<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
-<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="DO35-10" urn="urn:adsk.eagle:package:43344/2" type="model" library_version="7">
-<description>DIODE
-diameter 2 mm, horizontal, grid 10.16 mm</description>
-<packageinstances>
-<packageinstance name="DO35-10"/>
-</packageinstances>
-</package3d>
-<package3d name="DO35-7" urn="urn:adsk.eagle:package:43339/2" type="model" library_version="7">
-<description>DIODE
-diameter 2 mm, horizontal, grid 7.62 mm</description>
-<packageinstances>
-<packageinstance name="DO35-7"/>
-</packageinstances>
-</package3d>
-<package3d name="DO41-10" urn="urn:adsk.eagle:package:43336/1" type="box" library_version="7">
-<description>DIODE
-diameter 2.54 mm, horizontal, grid 10.16 mm</description>
-<packageinstances>
-<packageinstance name="DO41-10"/>
-</packageinstances>
-</package3d>
-<package3d name="DO41Z10" urn="urn:adsk.eagle:package:43341/1" type="box" library_version="7">
-<description>DIODE
-diameter 2.54 mm, horizontal, grid 10.16 mm</description>
-<packageinstances>
-<packageinstance name="DO41Z10"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="D" urn="urn:adsk.eagle:symbol:43091/2" library_version="7">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
-<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="ZD" urn="urn:adsk.eagle:symbol:43096/2" library_version="7">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1N4148" urn="urn:adsk.eagle:component:43496/4" prefix="D" library_version="7">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-high speed (Philips)</description>
-<gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="DO35-10" package="DO35-10">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43344/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DO35-7" package="DO35-7">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43339/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1N4004" urn="urn:adsk.eagle:component:43462/2" prefix="D" library_version="7">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-general purpose rectifier, 1 A</description>
-<gates>
-<gate name="1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DO41-10">
-<connects>
-<connect gate="1" pin="A" pad="A"/>
-<connect gate="1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43336/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BZX85" urn="urn:adsk.eagle:component:43492/2" prefix="D" library_version="7">
-<description>&lt;b&gt;Z DIODE&lt;/b&gt;</description>
-<gates>
-<gate name="D" symbol="ZD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DO41Z10">
-<connects>
-<connect gate="D" pin="A" pad="A"/>
-<connect gate="D" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43341/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
 </deviceset>
 </devicesets>
 </library>
@@ -8666,6 +8601,54 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <text x="-3.75" y="1.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="B2B-ZR2.5">
+<description>&lt;b&gt;ZH CONNECTOR&lt;/b&gt;  Top entry type, 1.5 mm, 4 pin 1 row&lt;p&gt;
+Source: http://www.jst.com .. eZH.pdf</description>
+<wire x1="-1.98" y1="1" x2="-1.98" y2="1.15" width="0.2032" layer="21"/>
+<wire x1="-1.98" y1="1" x2="-1.48" y2="1" width="0.2032" layer="21"/>
+<wire x1="-1.48" y1="1" x2="-1.48" y2="1.15" width="0.2032" layer="21"/>
+<pad name="1" x="-1.2848" y="0" drill="1" diameter="1.4224" shape="long" rot="R90"/>
+<pad name="2" x="1.2566" y="0" drill="1" diameter="1.4224" shape="long" rot="R90"/>
+<text x="-2.48" y="2.77" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.48" y="-6.04" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-3.81" x2="-3.81" y2="-3.81" width="0.2032" layer="21"/>
+</package>
+<package name="B4B-ZR2.5">
+<description>&lt;b&gt;ZH CONNECTOR&lt;/b&gt;  Top entry type, 1.5 mm, 4 pin 1 row&lt;p&gt;
+Source: http://www.jst.com .. eZH.pdf</description>
+<wire x1="-4.52" y1="1" x2="-4.52" y2="1.15" width="0.2032" layer="21"/>
+<wire x1="-4.52" y1="1" x2="-4.02" y2="1" width="0.2032" layer="21"/>
+<wire x1="-4.02" y1="1" x2="-4.02" y2="1.15" width="0.2032" layer="21"/>
+<pad name="1" x="-3.8248" y="0" drill="1" diameter="1.4224" shape="long" rot="R90"/>
+<pad name="2" x="-1.2834" y="0" drill="1" diameter="1.4224" shape="long" rot="R90"/>
+<text x="-5.02" y="2.77" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.02" y="-6.04" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.35" y1="-3.81" x2="-6.35" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-3.81" x2="-6.35" y2="-3.81" width="0.2032" layer="21"/>
+<pad name="3" x="1.2566" y="0" drill="1" diameter="1.4224" shape="long" rot="R90"/>
+<pad name="4" x="3.7966" y="0" drill="1" diameter="1.4224" shape="long" rot="R90"/>
+</package>
+<package name="B3B-ZR2.5">
+<description>&lt;b&gt;ZH CONNECTOR&lt;/b&gt;  Top entry type, 1.5 mm, 4 pin 1 row&lt;p&gt;
+Source: http://www.jst.com .. eZH.pdf</description>
+<wire x1="-3.25" y1="1" x2="-3.25" y2="1.15" width="0.2032" layer="21"/>
+<wire x1="-3.25" y1="1" x2="-2.75" y2="1" width="0.2032" layer="21"/>
+<wire x1="-2.75" y1="1" x2="-2.75" y2="1.15" width="0.2032" layer="21"/>
+<pad name="1" x="-2.5548" y="0" drill="1" diameter="1.4224" shape="long" rot="R90"/>
+<pad name="2" x="-0.0134" y="0" drill="1" diameter="1.4224" shape="long" rot="R90"/>
+<text x="-3.75" y="2.77" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.75" y="-6.04" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="-3.81" x2="-5.08" y2="-3.81" width="0.2032" layer="21"/>
+<pad name="3" x="2.5266" y="0" drill="1" diameter="1.4224" shape="long" rot="R90"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="B4B-ZR" urn="urn:adsk.eagle:package:7642/1" type="box">
@@ -8726,6 +8709,16 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="2.5" package="B3B-ZR2.5">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+<connect gate="-3" pin="1" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="?4B-ZR" prefix="X">
@@ -8776,6 +8769,17 @@ Source: http://www.jst.com .. eZH.pdf</description>
 </technology>
 </technologies>
 </device>
+<device name="2.5" package="B4B-ZR2.5">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+<connect gate="-3" pin="1" pad="3"/>
+<connect gate="-4" pin="1" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="?2B-ZR" prefix="X">
@@ -8796,6 +8800,15 @@ Source: http://www.jst.com .. eZH.pdf</description>
 </technologies>
 </device>
 <device name="S" package="S2B-ZR">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2.5" package="B2B-ZR2.5">
 <connects>
 <connect gate="-1" pin="1" pad="1"/>
 <connect gate="-2" pin="1" pad="2"/>
@@ -8887,22 +8900,22 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <wire x1="1.524" y1="-2.667" x2="2.286" y2="-2.667" width="0.127" layer="21"/>
 </package>
 <package name="MCP2515_DEVBOARD_INVERTED">
-<pad name="INT" x="-19.05" y="-7.62" drill="0.9" diameter="1.9304"/>
-<pad name="SCK" x="-19.05" y="-5.08" drill="0.9" diameter="1.9304"/>
-<pad name="SI" x="-19.05" y="-2.54" drill="0.9" diameter="1.9304"/>
-<pad name="SO" x="-19.05" y="0" drill="0.9" diameter="1.9304"/>
-<pad name="CS" x="-19.05" y="2.54" drill="0.9" diameter="1.9304"/>
-<pad name="GND" x="-19.05" y="5.08" drill="0.9" diameter="1.9304"/>
-<pad name="VCC" x="-19.05" y="7.62" drill="0.9" diameter="1.9304"/>
-<pad name="CAN_H" x="9.525" y="-1.27" drill="0.9" diameter="1.9304"/>
-<pad name="CAN_L" x="9.525" y="1.27" drill="0.9" diameter="1.9304"/>
+<pad name="INT" x="-19.05" y="-7.62" drill="1" diameter="1.6764"/>
+<pad name="SCK" x="-19.05" y="-5.08" drill="1" diameter="1.6764"/>
+<pad name="SI" x="-19.05" y="-2.54" drill="1" diameter="1.6764"/>
+<pad name="SO" x="-19.05" y="0" drill="1" diameter="1.6764"/>
+<pad name="CS" x="-19.05" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="GND" x="-19.05" y="5.08" drill="1" diameter="1.6764"/>
+<pad name="VCC" x="-19.05" y="7.62" drill="1" diameter="1.6764"/>
+<pad name="CAN_H" x="9.525" y="-1.27" drill="1" diameter="1.6764"/>
+<pad name="CAN_L" x="9.525" y="1.27" drill="1" diameter="1.6764"/>
 <wire x1="-20.32" y1="-13.97" x2="-20.32" y2="-8.89" width="0.127" layer="22"/>
 <wire x1="-20.32" y1="-8.89" x2="-20.32" y2="8.89" width="0.127" layer="22"/>
 <wire x1="-20.32" y1="8.89" x2="-20.32" y2="13.843" width="0.127" layer="22"/>
 <wire x1="-20.32" y1="13.843" x2="19.685" y2="13.843" width="0.127" layer="22"/>
 <wire x1="19.685" y1="-13.97" x2="-20.32" y2="-13.97" width="0.127" layer="22"/>
-<pad name="TERM_REST1" x="10.795" y="11.684" drill="0.9" diameter="1.9304"/>
-<pad name="TERM_REST0" x="8.255" y="11.684" drill="0.9" diameter="1.9304"/>
+<pad name="TERM_REST1" x="10.795" y="11.684" drill="1" diameter="1.6764"/>
+<pad name="TERM_REST0" x="8.255" y="11.684" drill="1" diameter="1.6764"/>
 <hole x="-17.78" y="-11.684" drill="3.556"/>
 <hole x="17.145" y="-11.684" drill="3.556"/>
 <hole x="17.145" y="11.557" drill="3.556"/>
@@ -9124,16 +9137,16 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <library name="MPU9250">
 <packages>
 <package name="MPU9250_BREAKOUT">
-<pad name="VCC" x="-6.35" y="11.43" drill="0.9" diameter="1.9304"/>
-<pad name="GND" x="-6.35" y="8.89" drill="0.9" diameter="1.9304"/>
-<pad name="SCL" x="-6.35" y="6.35" drill="0.9" diameter="1.9304"/>
-<pad name="SDA" x="-6.35" y="3.81" drill="0.9" diameter="1.9304"/>
-<pad name="EDA" x="-6.35" y="1.27" drill="0.9" diameter="1.9304"/>
-<pad name="ECL" x="-6.35" y="-1.27" drill="0.9" diameter="1.9304"/>
-<pad name="AD0" x="-6.35" y="-3.81" drill="0.9" diameter="1.9304"/>
-<pad name="INT" x="-6.35" y="-6.35" drill="0.9" diameter="1.9304"/>
-<pad name="NCS" x="-6.35" y="-8.89" drill="0.9" diameter="1.9304"/>
-<pad name="FSYNC" x="-6.35" y="-11.43" drill="0.9" diameter="1.9304"/>
+<pad name="VCC" x="-6.35" y="11.43" drill="1" diameter="1.6764"/>
+<pad name="GND" x="-6.35" y="8.89" drill="1" diameter="1.6764"/>
+<pad name="SCL" x="-6.35" y="6.35" drill="1" diameter="1.6764"/>
+<pad name="SDA" x="-6.35" y="3.81" drill="1" diameter="1.6764"/>
+<pad name="EDA" x="-6.35" y="1.27" drill="1" diameter="1.6764"/>
+<pad name="ECL" x="-6.35" y="-1.27" drill="1" diameter="1.6764"/>
+<pad name="AD0" x="-6.35" y="-3.81" drill="1" diameter="1.6764"/>
+<pad name="INT" x="-6.35" y="-6.35" drill="1" diameter="1.6764"/>
+<pad name="NCS" x="-6.35" y="-8.89" drill="1" diameter="1.6764"/>
+<pad name="FSYNC" x="-6.35" y="-11.43" drill="1" diameter="1.6764"/>
 <wire x1="-7.62" y1="12.7" x2="-5.08" y2="12.7" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="12.7" x2="7.62" y2="12.7" width="0.127" layer="21"/>
 <wire x1="7.62" y1="12.7" x2="7.62" y2="-12.7" width="0.127" layer="21"/>
@@ -9203,10 +9216,10 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <library name="PSU">
 <packages>
 <package name="LM2596S">
-<pad name="IN+" x="-13.843" y="6.223" drill="0.9" diameter="2.54" shape="square"/>
-<pad name="IN-" x="-13.843" y="-4.953" drill="0.9" diameter="2.54" shape="square"/>
-<pad name="OUT+" x="15.113" y="6.223" drill="0.9" diameter="2.54" shape="square"/>
-<pad name="OUT-" x="15.113" y="-4.953" drill="0.9" diameter="2.54" shape="square"/>
+<pad name="IN+" x="-13.843" y="6.223" drill="1" diameter="2.54" shape="square"/>
+<pad name="IN-" x="-13.843" y="-4.953" drill="1" diameter="2.54" shape="square"/>
+<pad name="OUT+" x="15.113" y="6.223" drill="1" diameter="2.54" shape="square"/>
+<pad name="OUT-" x="15.113" y="-4.953" drill="1" diameter="2.54" shape="square"/>
 <wire x1="-15.24" y1="7.62" x2="-15.24" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="-15.24" y1="-6.35" x2="16.51" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="16.51" y1="-6.35" x2="16.51" y2="7.62" width="0.127" layer="21"/>
@@ -9530,7 +9543,7 @@ Source: http://www.jst.com .. eZH.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHD-1X4" urn="urn:adsk.eagle:component:22499/4" prefix="JP" uservalue="yes" library_version="3">
+<deviceset name="PINHD-1X4" urn="urn:adsk.eagle:component:22499/5" prefix="JP" uservalue="yes" library_version="4">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINHD4" x="0" y="0"/>
@@ -9547,7 +9560,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22407/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="91" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="/90" package="1X04/90">
@@ -9561,12 +9576,14 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22404/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="9" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X2" urn="urn:adsk.eagle:component:22516/3" prefix="JP" uservalue="yes" library_version="3">
+<deviceset name="PINHD-1X2" urn="urn:adsk.eagle:component:22516/4" prefix="JP" uservalue="yes" library_version="4">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="PINHD2" x="0" y="0"/>
@@ -9581,7 +9598,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="98" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="/90" package="1X02/90">
@@ -9593,12 +9612,14 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22437/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="24" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-2X3" urn="urn:adsk.eagle:component:22532/3" prefix="JP" uservalue="yes" library_version="3">
+<deviceset name="PINHD-2X3" urn="urn:adsk.eagle:component:22532/4" prefix="JP" uservalue="yes" library_version="4">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINH2X3" x="0" y="0"/>
@@ -9617,7 +9638,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22462/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="62" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="/90" package="2X03/90">
@@ -9633,7 +9656,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22464/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -9643,12 +9668,12 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <library name="sd-mmc">
 <packages>
 <package name="HKD-MICRO-SD-BREAKOUT">
-<pad name="GND" x="-20.32" y="5.08" drill="0.9" diameter="1.9304"/>
-<pad name="VCC" x="-20.32" y="2.54" drill="0.9" diameter="1.9304"/>
-<pad name="MISO" x="-20.32" y="0" drill="0.9" diameter="1.9304"/>
-<pad name="MOSI" x="-20.32" y="-2.54" drill="0.9" diameter="1.9304"/>
-<pad name="SCK" x="-20.32" y="-5.08" drill="0.9" diameter="1.9304"/>
-<pad name="CS" x="-20.32" y="-7.62" drill="0.9" diameter="1.9304"/>
+<pad name="GND" x="-20.32" y="5.08" drill="1" diameter="1.6764"/>
+<pad name="VCC" x="-20.32" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="MISO" x="-20.32" y="0" drill="1" diameter="1.6764"/>
+<pad name="MOSI" x="-20.32" y="-2.54" drill="1" diameter="1.6764"/>
+<pad name="SCK" x="-20.32" y="-5.08" drill="1" diameter="1.6764"/>
+<pad name="CS" x="-20.32" y="-7.62" drill="1" diameter="1.6764"/>
 <wire x1="-22.86" y1="12.7" x2="-22.86" y2="-15.24" width="0.127" layer="21"/>
 <wire x1="-22.86" y1="-15.24" x2="22.86" y2="-15.24" width="0.127" layer="21"/>
 <wire x1="22.86" y1="-15.24" x2="22.86" y2="12.7" width="0.127" layer="21"/>
@@ -9795,7 +9820,7 @@ grid 2.54 mm, horinzontal</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TIP136" urn="urn:adsk.eagle:component:29303/1" prefix="Q" library_version="4">
+<deviceset name="TIP136" urn="urn:adsk.eagle:component:29303/2" prefix="Q" library_version="6">
 <description>&lt;b&gt;PNP Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="PNP-DAR" x="0" y="0"/>
@@ -9811,7 +9836,9 @@ grid 2.54 mm, horinzontal</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:29212/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -9821,36 +9848,36 @@ grid 2.54 mm, horinzontal</description>
 <library name="A9">
 <packages>
 <package name="A9G">
-<pad name="GND2" x="-11.43" y="19.05" drill="0.9" diameter="1.9304"/>
-<pad name="5V" x="-11.43" y="16.51" drill="0.9" diameter="1.9304"/>
-<pad name="RST" x="-11.43" y="13.97" drill="0.9" diameter="1.9304"/>
-<pad name="PWR_KEY" x="-11.43" y="11.43" drill="0.9" diameter="1.9304"/>
-<pad name="HST_RX" x="-11.43" y="8.89" drill="0.9" diameter="1.9304"/>
-<pad name="HST_TX" x="-11.43" y="6.35" drill="0.9" diameter="1.9304"/>
-<pad name="IO7" x="-11.43" y="-1.27" drill="0.9" diameter="1.9304"/>
-<pad name="IO6" x="-11.43" y="-3.81" drill="0.9" diameter="1.9304"/>
-<pad name="IO4" x="-11.43" y="-6.35" drill="0.9" diameter="1.9304"/>
-<pad name="IO5" x="-11.43" y="-8.89" drill="0.9" diameter="1.9304"/>
-<pad name="IO3" x="-11.43" y="-11.43" drill="0.9" diameter="1.9304"/>
-<pad name="IO2" x="-11.43" y="-13.97" drill="0.9" diameter="1.9304"/>
-<pad name="IO0" x="-11.43" y="-16.51" drill="0.9" diameter="1.9304"/>
-<pad name="IO1" x="-11.43" y="-19.05" drill="0.9" diameter="1.9304"/>
-<pad name="IO25" x="11.43" y="19.05" drill="0.9" diameter="1.9304"/>
-<pad name="IO30" x="11.43" y="16.51" drill="0.9" diameter="1.9304"/>
-<pad name="IO26" x="11.43" y="13.97" drill="0.9" diameter="1.9304"/>
-<pad name="IO29" x="11.43" y="11.43" drill="0.9" diameter="1.9304"/>
-<pad name="IO16" x="11.43" y="8.89" drill="0.9" diameter="1.9304"/>
-<pad name="IO18" x="11.43" y="6.35" drill="0.9" diameter="1.9304"/>
-<pad name="IO17" x="11.43" y="3.81" drill="0.9" diameter="1.9304"/>
-<pad name="IO14" x="11.43" y="1.27" drill="0.9" diameter="1.9304"/>
-<pad name="IO15" x="11.43" y="-1.27" drill="0.9" diameter="1.9304"/>
-<pad name="IO19" x="11.43" y="-3.81" drill="0.9" diameter="1.9304"/>
-<pad name="IO20" x="11.43" y="-6.35" drill="0.9" diameter="1.9304"/>
-<pad name="ADC1" x="11.43" y="-8.89" drill="0.9" diameter="1.9304"/>
-<pad name="ADC0" x="11.43" y="-11.43" drill="0.9" diameter="1.9304"/>
-<pad name="VIO" x="11.43" y="-13.97" drill="0.9" diameter="1.9304"/>
-<pad name="GND" x="11.43" y="-19.05" drill="0.9" diameter="1.9304"/>
-<pad name="VBAT" x="11.43" y="-16.51" drill="0.9" diameter="1.9304"/>
+<pad name="GND2" x="-11.43" y="19.05" drill="1" diameter="1.6764"/>
+<pad name="5V" x="-11.43" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="RST" x="-11.43" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="PWR_KEY" x="-11.43" y="11.43" drill="1" diameter="1.6764"/>
+<pad name="HST_RX" x="-11.43" y="8.89" drill="1" diameter="1.6764"/>
+<pad name="HST_TX" x="-11.43" y="6.35" drill="1" diameter="1.6764"/>
+<pad name="IO7" x="-11.43" y="-1.27" drill="1" diameter="1.6764"/>
+<pad name="IO6" x="-11.43" y="-3.81" drill="1" diameter="1.6764"/>
+<pad name="IO4" x="-11.43" y="-6.35" drill="1" diameter="1.6764"/>
+<pad name="IO5" x="-11.43" y="-8.89" drill="1" diameter="1.6764"/>
+<pad name="IO3" x="-11.43" y="-11.43" drill="1" diameter="1.6764"/>
+<pad name="IO2" x="-11.43" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="IO0" x="-11.43" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="IO1" x="-11.43" y="-19.05" drill="1" diameter="1.6764"/>
+<pad name="IO25" x="11.43" y="19.05" drill="1" diameter="1.6764"/>
+<pad name="IO30" x="11.43" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="IO26" x="11.43" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="IO29" x="11.43" y="11.43" drill="1" diameter="1.6764"/>
+<pad name="IO16" x="11.43" y="8.89" drill="1" diameter="1.6764"/>
+<pad name="IO18" x="11.43" y="6.35" drill="1" diameter="1.6764"/>
+<pad name="IO17" x="11.43" y="3.81" drill="1" diameter="1.6764"/>
+<pad name="IO14" x="11.43" y="1.27" drill="1" diameter="1.6764"/>
+<pad name="IO15" x="11.43" y="-1.27" drill="1" diameter="1.6764"/>
+<pad name="IO19" x="11.43" y="-3.81" drill="1" diameter="1.6764"/>
+<pad name="IO20" x="11.43" y="-6.35" drill="1" diameter="1.6764"/>
+<pad name="ADC1" x="11.43" y="-8.89" drill="1" diameter="1.6764"/>
+<pad name="ADC0" x="11.43" y="-11.43" drill="1" diameter="1.6764"/>
+<pad name="VIO" x="11.43" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="GND" x="11.43" y="-19.05" drill="1" diameter="1.6764"/>
+<pad name="VBAT" x="11.43" y="-16.51" drill="1" diameter="1.6764"/>
 <wire x1="-12.7" y1="20.32" x2="-3.81" y2="20.32" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="20.32" x2="3.81" y2="20.32" width="0.127" layer="21"/>
 <wire x1="3.81" y1="20.32" x2="12.7" y2="20.32" width="0.127" layer="21"/>
@@ -10065,7 +10092,7 @@ grid 2.54 mm, horinzontal</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="10-XX" urn="urn:adsk.eagle:component:27498/1" prefix="S" uservalue="yes" library_version="2">
+<deviceset name="10-XX" urn="urn:adsk.eagle:component:27498/2" prefix="S" uservalue="yes" library_version="3">
 <description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="TS2" x="0" y="0"/>
@@ -10087,6 +10114,7 @@ grid 2.54 mm, horinzontal</description>
 <attribute name="MPN" value="B3F-1000" constant="no"/>
 <attribute name="OC_FARNELL" value="176432" constant="no"/>
 <attribute name="OC_NEWARK" value="36M3542" constant="no"/>
+<attribute name="POPULARITY" value="72" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10185,7 +10213,7 @@ NS Package M08A</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LM358" urn="urn:adsk.eagle:component:16616/3" prefix="IC" library_version="4">
+<deviceset name="LM358" urn="urn:adsk.eagle:component:16616/4" prefix="IC" library_version="7">
 <description>&lt;b&gt;OP AMP&lt;/b&gt; also LM158; LM258; LM2904&lt;p&gt;
 Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <gates>
@@ -10209,7 +10237,9 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:16409/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="D" package="SO08">
@@ -10227,7 +10257,9 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:16404/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="12" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MX" package="SO08">
@@ -10245,7 +10277,9 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:16404/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -10315,7 +10349,7 @@ grid 2.54 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BS170" urn="urn:adsk.eagle:component:29807/2" prefix="Q" library_version="4">
+<deviceset name="BS170" urn="urn:adsk.eagle:component:29807/3" prefix="Q" library_version="5">
 <description>&lt;b&gt;N-CHANNEL MOS FET&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="IGFNA" x="0" y="0"/>
@@ -10331,7 +10365,9 @@ grid 2.54 mm</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:29751/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -10375,7 +10411,7 @@ grid 2.54 mm</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="NPN" urn="urn:adsk.eagle:symbol:28915/1" library_version="3">
+<symbol name="NPN" urn="urn:adsk.eagle:symbol:26256/2" library_version="6">
 <wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
 <wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
@@ -10395,7 +10431,7 @@ grid 2.54 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BC618*" urn="urn:adsk.eagle:component:29119/2" prefix="Q" library_version="3">
+<deviceset name="BC618*" urn="urn:adsk.eagle:component:29119/4" prefix="Q" library_version="6">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -10411,7 +10447,9 @@ grid 2.54 mm</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:28989/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -10608,6 +10646,241 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="diode-custom">
+<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Motorola : www.onsemi.com
+&lt;li&gt;Fairchild : www.fairchildsemi.com
+&lt;li&gt;Philips : www.semiconductors.com
+&lt;li&gt;Vishay : www.vishay.de
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DO41-7.6" urn="urn:adsk.eagle:footprint:43217/1">
+<description>&lt;b&gt;DO41&lt;/b&gt; 7.6mm x 2mm&lt;p&gt;
+Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
+<wire x1="2.082" y1="-0.92" x2="-2.082" y2="-0.92" width="0.1524" layer="21"/>
+<wire x1="2.082" y1="-0.92" x2="2.082" y2="0.92" width="0.1524" layer="21"/>
+<wire x1="-2.082" y1="0.92" x2="2.082" y2="0.92" width="0.1524" layer="21"/>
+<wire x1="-2.082" y1="0.92" x2="-2.082" y2="-0.92" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0" x2="2.494" y2="0" width="0.85" layer="51"/>
+<wire x1="-3.81" y1="0" x2="-2.519" y2="0" width="0.85" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="C" x="-3.81" y="0" drill="1.1" diameter="1.7"/>
+<pad name="A" x="3.81" y="0" drill="1.1" diameter="1.7"/>
+<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.032" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-0.95" x2="-1.143" y2="0.92" layer="21"/>
+<rectangle x1="2.082" y1="-0.425" x2="2.717" y2="0.425" layer="21"/>
+<rectangle x1="-2.717" y1="-0.425" x2="-2.082" y2="0.425" layer="21"/>
+</package>
+<package name="DO41-10" urn="urn:adsk.eagle:footprint:43094/1">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="A" x="5.08" y="0" drill="1.1176"/>
+<pad name="C" x="-5.08" y="0" drill="1.1176"/>
+<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
+<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
+<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
+</package>
+<package name="DO41Z7.6">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<wire x1="1.7145" y1="-0.9525" x2="-1.7145" y2="-0.9525" width="0.1524" layer="21"/>
+<wire x1="1.7145" y1="-0.9525" x2="1.7145" y2="0.9525" width="0.1524" layer="21"/>
+<wire x1="-1.7145" y1="0.9525" x2="1.7145" y2="0.9525" width="0.1524" layer="21"/>
+<wire x1="-1.7145" y1="0.9525" x2="-1.7145" y2="-0.9525" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0" x2="2.3495" y2="0" width="0.762" layer="51"/>
+<wire x1="-3.81" y1="0" x2="-2.4765" y2="0" width="0.762" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<pad name="C" x="-3.81" y="0" drill="1"/>
+<pad name="A" x="3.81" y="0" drill="1"/>
+<text x="-1.905" y="1.3335" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.905" y="-2.4765" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.3335" y1="-0.9525" x2="-0.8255" y2="0.9525" layer="21"/>
+<wire x1="-2.2225" y1="0" x2="-1.905" y2="0" width="0.762" layer="21"/>
+<wire x1="2.2225" y1="0" x2="1.905" y2="0" width="0.762" layer="21"/>
+</package>
+<package name="DO41Z10" urn="urn:adsk.eagle:footprint:43100/1">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0" x2="3.937" y2="0" width="0.762" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<pad name="C" x="-5.08" y="0" drill="1.1176"/>
+<pad name="A" x="5.08" y="0" drill="1.1176"/>
+<text x="-1.905" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.905" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
+<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
+<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="DO41-7.6" urn="urn:adsk.eagle:package:43421/1" type="box">
+<description>DO41 7.6mm x 2mm
+Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
+<packageinstances>
+<packageinstance name="DO41-7.6"/>
+</packageinstances>
+</package3d>
+<package3d name="DO41-10" urn="urn:adsk.eagle:package:43336/1" type="box">
+<description>DIODE
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<packageinstances>
+<packageinstance name="DO41-10"/>
+</packageinstances>
+</package3d>
+<package3d name="DO41Z10" urn="urn:adsk.eagle:package:43341/1" type="box">
+<description>DIODE
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<packageinstances>
+<packageinstance name="DO41Z10"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="D">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="ZD">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1N4004" prefix="D">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+general purpose rectifier, 1 A</description>
+<gates>
+<gate name="1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="10" package="DO41-10">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43336/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="82" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="7" package="DO41-7.6">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43421/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BZX85" prefix="D">
+<description>&lt;b&gt;Z DIODE&lt;/b&gt;</description>
+<gates>
+<gate name="D" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="10" package="DO41Z10">
+<connects>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43341/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="7" package="DO41Z7.6">
+<connects>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10622,17 +10895,17 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="ECU" library="con-ptr500-custom" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="APP" library="con-ptr500-custom" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="351" device="" package3d_urn="urn:adsk.eagle:package:24300/1"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="150"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="150"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2" value="150"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2" value="150"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="2k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="680"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="680"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-050X050" package3d_urn="urn:adsk.eagle:package:23633/1" value="100u"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-050X050" package3d_urn="urn:adsk.eagle:package:23633/1" value="100u"/>
 <part name="T1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC618*" device="" package3d_urn="urn:adsk.eagle:package:28989/2"/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/2"/>
-<part name="STEERING_WHEEL" library="con-jst-custom" deviceset="?3B-ZR" device="B"/>
-<part name="DISPLAY" library="con-jst-custom" deviceset="?4B-ZR" device="B" package3d_urn="urn:adsk.eagle:package:7642/1"/>
+<part name="D1" library="diode-custom" deviceset="1N4004" device="7" package3d_urn="urn:adsk.eagle:package:43421/1"/>
+<part name="STEERING_WHEEL" library="con-jst-custom" deviceset="?3B-ZR" device="2.5" value="2.53B-ZR"/>
+<part name="DISPLAY" library="con-jst-custom" deviceset="?4B-ZR" device="2.5" value="2.54B-ZR"/>
 <part name="U$2" library="MCP2515" deviceset="MCP2515_DEVBOARD" device="INVERTED" value="MCP2515_DEVBOARDINVERTED"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -10649,17 +10922,17 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="U$3" library="MPU9250" deviceset="MPU9250_BREAKOUT" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="OBDII" library="con-jst-custom" deviceset="?2B-ZR" device="B"/>
+<part name="OBDII" library="con-jst-custom" deviceset="?2B-ZR" device="2.5" value="2.52B-ZR"/>
 <part name="U$4" library="PSU" deviceset="LM2596S" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
-<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
-<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZX85" device="" package3d_urn="urn:adsk.eagle:package:43341/1" value="BZX83C3V6"/>
-<part name="PWR" library="con-jst-custom" deviceset="?3B-ZR" device="B"/>
+<part name="D2" library="diode-custom" deviceset="1N4004" device="7" package3d_urn="urn:adsk.eagle:package:43421/1"/>
+<part name="D3" library="diode-custom" deviceset="1N4004" device="7" package3d_urn="urn:adsk.eagle:package:43421/1"/>
+<part name="D4" library="diode-custom" deviceset="BZX85" device="7" value="BZX83C3V6"/>
+<part name="PWR" library="con-jst-custom" deviceset="?3B-ZR" device="2.5" value="2.53B-ZR"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP_UART0" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
@@ -10681,7 +10954,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10693,10 +10965,10 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2" value="10k"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2" value="10k"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10704,7 +10976,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="U$6" library="A9" deviceset="A9G" device=""/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="2k"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2" value="2k"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="5k"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -10719,7 +10991,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T2" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC618*" device="" package3d_urn="urn:adsk.eagle:package:28989/2"/>
-<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2" value="1k"/>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM358" device="N" package3d_urn="urn:adsk.eagle:package:16409/2"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="2k"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
@@ -10728,8 +11000,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZX85" device="" package3d_urn="urn:adsk.eagle:package:43341/1" value="BZX83C5V1"/>
-<part name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZX85" device="" package3d_urn="urn:adsk.eagle:package:43341/1" value="BZX83C5V1"/>
+<part name="D5" library="diode-custom" deviceset="BZX85" device="7" value="BZX83C5V1"/>
+<part name="D6" library="diode-custom" deviceset="BZX85" device="7" value="BZX83C5V1"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BS170" device="" package3d_urn="urn:adsk.eagle:package:29751/2"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
@@ -10740,19 +11012,19 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-050X050" package3d_urn="urn:adsk.eagle:package:23633/1" value="0.1u"/>
 <part name="ENGINE_CUTOFF_CONN" library="con-ptr500-custom" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
-<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="2k"/>
+<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2" value="2k"/>
 <part name="T3" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC618*" device="" package3d_urn="urn:adsk.eagle:package:28989/2"/>
-<part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/2"/>
+<part name="D7" library="diode-custom" deviceset="1N4004" device="7" package3d_urn="urn:adsk.eagle:package:43421/1"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="K3" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="RT?*" device="184" package3d_urn="urn:adsk.eagle:package:24497/1" technology="012"/>
 <part name="CLAXON_CONN" library="con-ptr500-custom" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
-<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="2k"/>
+<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2" value="2k"/>
 <part name="T4" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC618*" device="" package3d_urn="urn:adsk.eagle:package:28989/2"/>
-<part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/2"/>
+<part name="D8" library="diode-custom" deviceset="1N4004" device="7" package3d_urn="urn:adsk.eagle:package:43421/1"/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="K2" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="RT?*" device="184" package3d_urn="urn:adsk.eagle:package:24497/1" technology="012"/>
-<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="X1" library="con-jst-custom" deviceset="?2B-ZR" device="2.5"/>
+<part name="X2" library="con-jst-custom" deviceset="?2B-ZR" device="2.5"/>
 </parts>
 <sheets>
 <sheet>
@@ -10853,12 +11125,12 @@ protection</text>
 <instance part="U$1" gate="G$1" x="-45.72" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="-50.8" y="13.97" size="1.27" layer="95" rot="R180"/>
 </instance>
-<instance part="ECU" gate="-1" x="139.7" y="111.76" smashed="yes">
-<attribute name="NAME" x="138.43" y="112.649" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="ECU" gate="-2" x="139.7" y="96.52" smashed="yes">
+<instance part="ECU" gate="-1" x="139.7" y="96.52" smashed="yes">
 <attribute name="NAME" x="138.43" y="97.409" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="135.89" y="92.837" size="1.778" layer="96"/>
+</instance>
+<instance part="ECU" gate="-2" x="139.7" y="111.76" smashed="yes">
+<attribute name="NAME" x="138.43" y="112.649" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="135.89" y="108.077" size="1.778" layer="96"/>
 </instance>
 <instance part="APP" gate="-1" x="139.7" y="165.1" smashed="yes">
 <attribute name="NAME" x="138.43" y="165.989" size="1.778" layer="95" rot="R180"/>
@@ -10867,9 +11139,9 @@ protection</text>
 <attribute name="NAME" x="138.43" y="158.369" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="135.89" y="153.797" size="1.778" layer="96"/>
 </instance>
-<instance part="K1" gate="1" x="157.48" y="68.58" smashed="yes" rot="R270">
-<attribute name="VALUE" x="160.401" y="67.31" size="1.778" layer="96" rot="R270"/>
-<attribute name="PART" x="162.56" y="67.31" size="1.778" layer="95" rot="R270"/>
+<instance part="K1" gate="1" x="157.48" y="68.58" smashed="yes" rot="R90">
+<attribute name="VALUE" x="154.559" y="69.85" size="1.778" layer="96" rot="R90"/>
+<attribute name="PART" x="152.4" y="69.85" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="K1" gate="2" x="154.94" y="96.52" smashed="yes" rot="MR90">
 <attribute name="PART" x="154.94" y="99.06" size="1.778" layer="95" rot="MR90"/>
@@ -10909,7 +11181,7 @@ protection</text>
 <attribute name="NAME" x="172.72" y="50.8" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="175.26" y="48.26" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D1" gate="G$1" x="157.48" y="58.42" smashed="yes" rot="R180">
+<instance part="D1" gate="1" x="157.48" y="58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="154.94" y="57.9374" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="154.94" y="60.7314" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -10923,18 +11195,18 @@ protection</text>
 <instance part="STEERING_WHEEL" gate="-3" x="-167.64" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="-168.656" y="84.582" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="DISPLAY" gate="-1" x="-167.64" y="114.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="-168.656" y="115.062" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-163.576" y="112.776" size="1.778" layer="96" rot="R180"/>
+<instance part="DISPLAY" gate="-1" x="-167.64" y="121.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-168.656" y="121.158" size="1.524" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-163.576" y="123.444" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="DISPLAY" gate="-2" x="-167.64" y="116.84" smashed="yes" rot="R180">
-<attribute name="NAME" x="-168.656" y="117.602" size="1.524" layer="95" rot="R180"/>
+<instance part="DISPLAY" gate="-2" x="-167.64" y="119.38" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-168.656" y="118.618" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="DISPLAY" gate="-3" x="-167.64" y="119.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="-168.656" y="120.142" size="1.524" layer="95" rot="R180"/>
+<instance part="DISPLAY" gate="-3" x="-167.64" y="116.84" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-168.656" y="116.078" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="DISPLAY" gate="-4" x="-167.64" y="121.92" smashed="yes" rot="R180">
-<attribute name="NAME" x="-168.656" y="122.682" size="1.524" layer="95" rot="R180"/>
+<instance part="DISPLAY" gate="-4" x="-167.64" y="114.3" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-168.656" y="113.538" size="1.524" layer="95" rot="MR0"/>
 </instance>
 <instance part="U$2" gate="G$1" x="-38.1" y="129.54" smashed="yes"/>
 <instance part="+3V1" gate="G$1" x="-22.86" y="17.78" smashed="yes" rot="R270">
@@ -11016,15 +11288,15 @@ protection</text>
 <attribute name="NAME" x="-85.725" y="196.342" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-80.391" y="196.342" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PWR" gate="-1" x="-167.64" y="139.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="-168.656" y="140.462" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-163.576" y="138.176" size="1.778" layer="96" rot="R180"/>
+<instance part="PWR" gate="-1" x="-167.64" y="144.78" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-168.656" y="144.018" size="1.524" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-163.576" y="146.304" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="PWR" gate="-2" x="-167.64" y="142.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="-168.656" y="143.002" size="1.524" layer="95" rot="R180"/>
+<instance part="PWR" gate="-2" x="-167.64" y="142.24" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-168.656" y="141.478" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="PWR" gate="-3" x="-167.64" y="144.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="-168.656" y="145.542" size="1.524" layer="95" rot="R180"/>
+<instance part="PWR" gate="-3" x="-167.64" y="139.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-168.656" y="138.938" size="1.524" layer="95" rot="MR0"/>
 </instance>
 <instance part="P+8" gate="1" x="-160.02" y="149.86" smashed="yes">
 <attribute name="VALUE" x="-162.56" y="144.78" size="1.778" layer="96" rot="R90"/>
@@ -11096,9 +11368,6 @@ protection</text>
 </instance>
 <instance part="+3V3" gate="G$1" x="-175.26" y="-30.48" smashed="yes">
 <attribute name="VALUE" x="-177.8" y="-35.56" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+15" gate="1" x="-76.2" y="-30.48" smashed="yes">
-<attribute name="VALUE" x="-78.74" y="-35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND17" gate="1" x="-175.26" y="-43.18" smashed="yes">
 <attribute name="VALUE" x="-177.8" y="-45.72" size="1.778" layer="96"/>
@@ -11316,7 +11585,7 @@ protection</text>
 <attribute name="NAME" x="177.8" y="-104.14" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="180.34" y="-106.68" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D7" gate="G$1" x="180.34" y="-88.9" smashed="yes" rot="R90">
+<instance part="D7" gate="1" x="180.34" y="-88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="179.8574" y="-86.36" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="182.6514" y="-86.36" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -11345,7 +11614,7 @@ protection</text>
 <attribute name="NAME" x="177.8" y="-185.42" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="180.34" y="-187.96" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D8" gate="G$1" x="180.34" y="-170.18" smashed="yes" rot="R90">
+<instance part="D8" gate="1" x="180.34" y="-170.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="179.8574" y="-167.64" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="182.6514" y="-167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -11359,11 +11628,19 @@ protection</text>
 <instance part="K2" gate="2" x="152.4" y="-170.18" smashed="yes" rot="R180">
 <attribute name="PART" x="154.94" y="-167.64" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="P+5" gate="1" x="170.18" y="-71.12" smashed="yes">
-<attribute name="VALUE" x="167.894" y="-72.644" size="1.778" layer="96" rot="R90"/>
+<instance part="X1" gate="-1" x="129.54" y="160.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="128.524" y="160.782" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="133.604" y="158.496" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+20" gate="1" x="170.18" y="-152.4" smashed="yes">
-<attribute name="VALUE" x="167.894" y="-153.67" size="1.778" layer="96" rot="R90"/>
+<instance part="X1" gate="-2" x="129.54" y="162.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="128.524" y="163.322" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X2" gate="-1" x="132.08" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="131.064" y="104.902" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="136.144" y="102.616" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X2" gate="-2" x="132.08" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="131.064" y="107.442" size="1.524" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -11402,13 +11679,13 @@ protection</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="K1" gate="1" pin="1"/>
 <pinref part="T1" gate="G$1" pin="C"/>
-<wire x1="162.56" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="68.58" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="A"/>
 <wire x1="160.02" y1="58.42" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
 <junction x="165.1" y="58.42"/>
+<pinref part="K1" gate="1" pin="2"/>
+<wire x1="162.56" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11466,13 +11743,6 @@ protection</text>
 <label x="289.56" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="ECU" gate="-1" pin="KL"/>
-<pinref part="K1" gate="3" pin="P"/>
-<wire x1="144.78" y1="111.76" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="APP_ENABLE" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -11487,13 +11757,13 @@ protection</text>
 </net>
 <net name="BTN_1" class="0">
 <segment>
-<pinref part="STEERING_WHEEL" gate="-1" pin="1"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="-162.56" y1="78.74" x2="-154.94" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-154.94" y1="78.74" x2="-154.94" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-154.94" y1="78.74" x2="-139.7" y2="78.74" width="0.1524" layer="91"/>
-<junction x="-154.94" y="78.74"/>
-<label x="-139.7" y="78.74" size="1.778" layer="95" xref="yes"/>
+<label x="-139.7" y="83.82" size="1.778" layer="95" xref="yes"/>
+<wire x1="-162.56" y1="83.82" x2="-144.78" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="STEERING_WHEEL" gate="-3" pin="1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="-144.78" y1="83.82" x2="-139.7" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="73.66" x2="-144.78" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-144.78" y="83.82"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VN-IO39"/>
@@ -11503,13 +11773,13 @@ protection</text>
 </net>
 <net name="BTN_0" class="0">
 <segment>
-<pinref part="STEERING_WHEEL" gate="-3" pin="1"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-162.56" y1="83.82" x2="-144.78" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-144.78" y1="83.82" x2="-144.78" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-144.78" y1="83.82" x2="-139.7" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-144.78" y="83.82"/>
-<label x="-139.7" y="83.82" size="1.778" layer="95" xref="yes"/>
+<label x="-139.7" y="78.74" size="1.778" layer="95" xref="yes"/>
+<wire x1="-162.56" y1="78.74" x2="-154.94" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="STEERING_WHEEL" gate="-1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="-154.94" y1="78.74" x2="-139.7" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-154.94" y1="73.66" x2="-154.94" y2="78.74" width="0.1524" layer="91"/>
+<junction x="-154.94" y="78.74"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VP-OI36"/>
@@ -11519,9 +11789,9 @@ protection</text>
 </net>
 <net name="I2C1_SCL" class="0">
 <segment>
-<pinref part="DISPLAY" gate="-3" pin="1"/>
-<wire x1="-162.56" y1="119.38" x2="-160.02" y2="119.38" width="0.1524" layer="91"/>
 <label x="-160.02" y="119.38" size="1.778" layer="95" xref="yes"/>
+<wire x1="-162.56" y1="119.38" x2="-160.02" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="DISPLAY" gate="-2" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="IO19"/>
@@ -11531,9 +11801,9 @@ protection</text>
 </net>
 <net name="I2C1_SDA" class="0">
 <segment>
-<pinref part="DISPLAY" gate="-2" pin="1"/>
-<wire x1="-162.56" y1="116.84" x2="-160.02" y2="116.84" width="0.1524" layer="91"/>
 <label x="-160.02" y="116.84" size="1.778" layer="95" xref="yes"/>
+<pinref part="DISPLAY" gate="-3" pin="1"/>
+<wire x1="-160.02" y1="116.84" x2="-162.56" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="IO21"/>
@@ -11558,11 +11828,6 @@ protection</text>
 <wire x1="-175.26" y1="-35.56" x2="-175.26" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="DISPLAY" gate="-4" pin="1"/>
-<wire x1="-162.56" y1="121.92" x2="-160.02" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="+3V4" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="U$3" gate="G$1" pin="VCC"/>
 <wire x1="-60.96" y1="99.06" x2="-73.66" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="99.06" x2="-73.66" y2="101.6" width="0.1524" layer="91"/>
@@ -11576,6 +11841,11 @@ protection</text>
 <wire x1="170.18" y1="0" x2="170.18" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="2.54" x2="160.02" y2="2.54" width="0.1524" layer="91"/>
 <junction x="160.02" y="2.54"/>
+</segment>
+<segment>
+<pinref part="DISPLAY" gate="-1" pin="1"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="-162.56" y1="121.92" x2="-160.02" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11614,11 +11884,6 @@ protection</text>
 <junction x="-149.86" y="60.96"/>
 </segment>
 <segment>
-<pinref part="DISPLAY" gate="-1" pin="1"/>
-<wire x1="-162.56" y1="114.3" x2="-160.02" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="-63.5" y1="129.54" x2="-73.66" y2="129.54" width="0.1524" layer="91"/>
@@ -11652,10 +11917,10 @@ protection</text>
 <junction x="-68.58" y="190.5"/>
 </segment>
 <segment>
-<pinref part="PWR" gate="-2" pin="1"/>
-<wire x1="-162.56" y1="142.24" x2="-160.02" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="-160.02" y1="142.24" x2="-160.02" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="PWR" gate="-2" pin="1"/>
+<wire x1="-160.02" y1="142.24" x2="-162.56" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP_UART0" gate="A" pin="1"/>
@@ -11794,6 +12059,11 @@ protection</text>
 <pinref part="GND43" gate="1" pin="GND"/>
 <wire x1="170.18" y1="-187.96" x2="170.18" y2="-190.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="DISPLAY" gate="-4" pin="1"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="-162.56" y1="114.3" x2="-160.02" y2="114.3" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -11807,13 +12077,13 @@ protection</text>
 <pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="1" pin="C"/>
 <wire x1="154.94" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="K1" gate="1" pin="2"/>
 <wire x1="149.86" y1="58.42" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="149.86" y1="73.66" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="K1" gate="1" pin="1"/>
+<wire x1="149.86" y1="68.58" x2="149.86" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
 <junction x="149.86" y="68.58"/>
 </segment>
 <segment>
@@ -12051,16 +12321,10 @@ protection</text>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="PWR" gate="-3" pin="1"/>
-<wire x1="-162.56" y1="144.78" x2="-160.02" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+12V"/>
 <wire x1="-160.02" y1="144.78" x2="-160.02" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP_PWR_12V" gate="G$1" pin="2"/>
-<pinref part="P+15" gate="1" pin="+12V"/>
-<wire x1="-81.28" y1="-35.56" x2="-76.2" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="-35.56" x2="-76.2" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="PWR" gate="-1" pin="1"/>
+<wire x1="-160.02" y1="144.78" x2="-162.56" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-43.18" y1="228.6" x2="-48.26" y2="228.6" width="0.1524" layer="91"/>
@@ -12072,26 +12336,6 @@ protection</text>
 <wire x1="-38.1" y1="228.6" x2="-38.1" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="228.6" x2="-38.1" y2="228.6" width="0.1524" layer="91"/>
 <junction x="-43.18" y="228.6"/>
-</segment>
-<segment>
-<pinref part="K2" gate="1" pin="2"/>
-<wire x1="170.18" y1="-165.1" x2="170.18" y2="-162.56" width="0.1524" layer="91"/>
-<pinref part="D8" gate="G$1" pin="C"/>
-<wire x1="180.34" y1="-167.64" x2="180.34" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="-162.56" x2="170.18" y2="-162.56" width="0.1524" layer="91"/>
-<pinref part="P+20" gate="1" pin="+12V"/>
-<wire x1="170.18" y1="-162.56" x2="170.18" y2="-154.94" width="0.1524" layer="91"/>
-<junction x="170.18" y="-162.56"/>
-</segment>
-<segment>
-<pinref part="K3" gate="1" pin="2"/>
-<wire x1="170.18" y1="-83.82" x2="170.18" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="D7" gate="G$1" pin="C"/>
-<wire x1="180.34" y1="-86.36" x2="180.34" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="-81.28" x2="170.18" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="1" pin="+12V"/>
-<wire x1="170.18" y1="-73.66" x2="170.18" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="170.18" y="-81.28"/>
 </segment>
 </net>
 <net name="PWR_ENABLE" class="0">
@@ -12113,16 +12357,9 @@ protection</text>
 <pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="PWR" gate="-1" pin="1"/>
-<wire x1="-162.56" y1="139.7" x2="-157.48" y2="139.7" width="0.1524" layer="91"/>
 <label x="-157.48" y="139.7" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="K1" gate="2" pin="P"/>
-<pinref part="ECU" gate="-2" pin="KL"/>
-<wire x1="152.4" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="PWR" gate="-3" pin="1"/>
+<wire x1="-157.48" y1="139.7" x2="-162.56" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -12175,9 +12412,9 @@ protection</text>
 <label x="-25.4" y="45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP_UART0" gate="A" pin="2"/>
-<wire x1="-180.34" y1="-60.96" x2="-175.26" y2="-60.96" width="0.1524" layer="91"/>
-<label x="-175.26" y="-60.96" size="1.778" layer="95" xref="yes"/>
+<label x="-175.26" y="-58.42" size="1.778" layer="95" xref="yes"/>
+<wire x1="-180.34" y1="-58.42" x2="-175.26" y2="-58.42" width="0.1524" layer="91"/>
+<pinref part="JP_UART0" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="UART0_TX" class="0">
@@ -12187,9 +12424,9 @@ protection</text>
 <label x="-25.4" y="48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP_UART0" gate="A" pin="3"/>
-<wire x1="-180.34" y1="-58.42" x2="-175.26" y2="-58.42" width="0.1524" layer="91"/>
-<label x="-175.26" y="-58.42" size="1.778" layer="95" xref="yes"/>
+<label x="-175.26" y="-60.96" size="1.778" layer="95" xref="yes"/>
+<wire x1="-180.34" y1="-60.96" x2="-175.26" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="JP_UART0" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="SPI_CS_1" class="0">
@@ -12219,24 +12456,34 @@ protection</text>
 <net name="APP_0_IN" class="0">
 <segment>
 <pinref part="APP" gate="-1" pin="KL"/>
-<wire x1="144.78" y1="165.1" x2="160.02" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="165.1" x2="147.32" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="K1" gate="3" pin="O"/>
+<wire x1="147.32" y1="165.1" x2="160.02" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="116.84" x2="160.02" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
 <junction x="160.02" y="165.1"/>
+<pinref part="X1" gate="-2" pin="1"/>
+<wire x1="134.62" y1="162.56" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="162.56" x2="147.32" y2="165.1" width="0.1524" layer="91"/>
+<junction x="147.32" y="165.1"/>
 </segment>
 </net>
 <net name="APP_1_IN" class="0">
 <segment>
 <pinref part="APP" gate="-2" pin="KL"/>
-<wire x1="144.78" y1="157.48" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="157.48" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="K1" gate="2" pin="O"/>
+<wire x1="147.32" y1="157.48" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="101.6" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="157.48" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
 <junction x="162.56" y="157.48"/>
+<pinref part="X1" gate="-1" pin="1"/>
+<wire x1="134.62" y1="160.02" x2="147.32" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="160.02" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
+<junction x="147.32" y="157.48"/>
 </segment>
 </net>
 <net name="GPS_TX" class="0">
@@ -12251,9 +12498,9 @@ protection</text>
 <pinref part="R16" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="JP_UART2" gate="A" pin="3"/>
-<wire x1="-144.78" y1="-58.42" x2="-139.7" y2="-58.42" width="0.1524" layer="91"/>
-<label x="-139.7" y="-58.42" size="1.778" layer="95" xref="yes"/>
+<label x="-139.7" y="-60.96" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP_UART2" gate="A" pin="2"/>
+<wire x1="-144.78" y1="-60.96" x2="-139.7" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_RX" class="0">
@@ -12271,9 +12518,9 @@ protection</text>
 <junction x="180.34" y="-7.62"/>
 </segment>
 <segment>
-<pinref part="JP_UART2" gate="A" pin="2"/>
-<wire x1="-144.78" y1="-60.96" x2="-139.7" y2="-60.96" width="0.1524" layer="91"/>
-<label x="-139.7" y="-60.96" size="1.778" layer="95" xref="yes"/>
+<label x="-139.7" y="-58.42" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP_UART2" gate="A" pin="3"/>
+<wire x1="-144.78" y1="-58.42" x2="-139.7" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MCU_RESET" class="0">
@@ -12351,6 +12598,32 @@ protection</text>
 <wire x1="220.98" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
 <junction x="220.98" y="116.84"/>
 <label x="223.52" y="116.84" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K3" gate="1" pin="2"/>
+<wire x1="170.18" y1="-83.82" x2="170.18" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="D7" gate="1" pin="C"/>
+<wire x1="180.34" y1="-86.36" x2="180.34" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-81.28" x2="170.18" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-73.66" x2="170.18" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="170.18" y="-81.28"/>
+<label x="170.18" y="-73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K2" gate="1" pin="2"/>
+<wire x1="170.18" y1="-165.1" x2="170.18" y2="-162.56" width="0.1524" layer="91"/>
+<pinref part="D8" gate="1" pin="C"/>
+<wire x1="180.34" y1="-167.64" x2="180.34" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-162.56" x2="170.18" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-162.56" x2="170.18" y2="-154.94" width="0.1524" layer="91"/>
+<junction x="170.18" y="-162.56"/>
+<label x="170.18" y="-154.94" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP_PWR_12V" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="-35.56" x2="-76.2" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-35.56" x2="-76.2" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-76.2" y="-33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -12433,7 +12706,7 @@ protection</text>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="D7" gate="G$1" pin="A"/>
+<pinref part="D7" gate="1" pin="A"/>
 <wire x1="180.34" y1="-91.44" x2="180.34" y2="-96.52" width="0.1524" layer="91"/>
 <pinref part="K3" gate="1" pin="1"/>
 <pinref part="T3" gate="G$1" pin="C"/>
@@ -12479,7 +12752,7 @@ protection</text>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="D8" gate="G$1" pin="A"/>
+<pinref part="D8" gate="1" pin="A"/>
 <wire x1="180.34" y1="-172.72" x2="180.34" y2="-177.8" width="0.1524" layer="91"/>
 <pinref part="K2" gate="1" pin="1"/>
 <pinref part="T4" gate="G$1" pin="C"/>
@@ -12523,23 +12796,50 @@ protection</text>
 <label x="-66.04" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="ECU" gate="-2" pin="KL"/>
+<pinref part="K1" gate="3" pin="P"/>
+<wire x1="144.78" y1="111.76" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-2" pin="1"/>
+<wire x1="147.32" y1="111.76" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="106.68" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
+<junction x="147.32" y="111.76"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="ECU" gate="-1" pin="KL"/>
+<pinref part="K1" gate="2" pin="P"/>
+<wire x1="144.78" y1="96.52" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-1" pin="1"/>
+<wire x1="147.32" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="104.14" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="104.14" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
+<junction x="147.32" y="96.52"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,1,25.3474,149.86,ECU,,,,,"/>
-<approved hash="113,1,40.7302,167.64,APP,,,,,"/>
-<approved hash="113,1,-182.876,-28.1661,JP_UART0,,,,,"/>
-<approved hash="113,1,-147.316,-28.1661,JP_UART2,,,,,"/>
-<approved hash="113,1,-113.547,-28.1661,JP_I2C_1,,,,,"/>
-<approved hash="113,1,-83.0665,-28.1661,JP_I2C_2,,,,,"/>
-<approved hash="113,1,-184.67,-5.30606,JP_PWR_3V3,,,,,"/>
-<approved hash="113,1,-149.82,-5.30606,JP_PWR_5V_1,,,,,"/>
-<approved hash="113,1,-116.8,-5.30606,JP_PWR_5V_2,,,,,"/>
-<approved hash="113,1,-85.6104,-5.30606,JP_PWR_12V,,,,,"/>
-<approved hash="113,1,-31.7923,-26.4439,JP_SPI_1,,,,,"/>
-<approved hash="113,1,-49.4083,-6.57606,JP_IO25,,,,,"/>
-<approved hash="113,1,-18.9283,-6.57606,JP_IO26,,,,,"/>
+<approved hash="104,1,220.98,114.3,IC1P,V+,PWR_IN+,,,"/>
+<approved hash="104,1,220.98,99.06,IC1P,V-,GND,,,"/>
+<approved hash="113,1,139.647,96.52,ECU,,,,,"/>
+<approved hash="113,1,139.79,165.1,APP,,,,,"/>
+<approved hash="113,1,-182.876,-61.1861,JP_UART0,,,,,"/>
+<approved hash="113,1,-147.316,-61.1861,JP_UART2,,,,,"/>
+<approved hash="113,1,-113.547,-61.1861,JP_I2C_1,,,,,"/>
+<approved hash="113,1,-83.0665,-61.1861,JP_I2C_2,,,,,"/>
+<approved hash="113,1,-184.67,-38.3261,JP_PWR_3V3,,,,,"/>
+<approved hash="113,1,-149.82,-38.3261,JP_PWR_5V_1,,,,,"/>
+<approved hash="113,1,-116.8,-38.3261,JP_PWR_5V_2,,,,,"/>
+<approved hash="113,1,-85.6104,-38.3261,JP_PWR_12V,,,,,"/>
+<approved hash="113,1,-31.7923,-59.4639,JP_SPI_1,,,,,"/>
+<approved hash="113,1,99.06,205.445,S1,,,,,"/>
+<approved hash="113,1,129.691,-81.28,ENGINE_CUTOFF_CONN,,,,,"/>
+<approved hash="113,1,135.181,-162.56,CLAXON_CONN,,,,,"/>
 </errors>
 </schematic>
 </drawing>
