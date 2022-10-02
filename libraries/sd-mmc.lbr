@@ -287,6 +287,29 @@ Surface Mounting type.</description>
 <text x="-18.415" y="-5.715" size="1.27" layer="21">SCK</text>
 <text x="-18.415" y="-8.255" size="1.27" layer="21">CS</text>
 </package>
+<package name="HKD-MICRO-SD-BREAKOUT-VERTICAL">
+<pad name="GND" x="-3.81" y="6.35" drill="1" diameter="1.6764"/>
+<pad name="VCC" x="-3.81" y="3.81" drill="1" diameter="1.6764"/>
+<pad name="MISO" x="-3.81" y="1.27" drill="1" diameter="1.6764"/>
+<pad name="MOSI" x="-3.81" y="-1.27" drill="1" diameter="1.6764"/>
+<pad name="SCK" x="-3.81" y="-3.81" drill="1" diameter="1.6764"/>
+<pad name="CS" x="-3.81" y="-6.35" drill="1" diameter="1.6764"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-12.7" x2="3.81" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-12.7" x2="3.81" y2="12.7" width="0.127" layer="21"/>
+<wire x1="3.81" y1="12.7" x2="-5.08" y2="12.7" width="0.127" layer="21"/>
+<text x="-1.905" y="5.715" size="1.27" layer="21">GND</text>
+<text x="-1.905" y="3.175" size="1.27" layer="21">VCC</text>
+<text x="-1.905" y="0.635" size="1.27" layer="21">MISO</text>
+<text x="-1.905" y="-1.905" size="1.27" layer="21">MOSI</text>
+<text x="-1.905" y="-4.445" size="1.27" layer="21">SCK</text>
+<text x="-1.905" y="-6.985" size="1.27" layer="21">CS</text>
+<wire x1="-5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SDCARD_SYMBOL">
@@ -530,7 +553,20 @@ Surface Mounting type.</description>
 <gate name="G$1" symbol="HKD-MICRO-SD-BREAKOUT" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="HKD-MICRO-SD-BREAKOUT">
+<device name="H" package="HKD-MICRO-SD-BREAKOUT">
+<connects>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V" package="HKD-MICRO-SD-BREAKOUT-VERTICAL">
 <connects>
 <connect gate="G$1" pin="CS" pad="CS"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
