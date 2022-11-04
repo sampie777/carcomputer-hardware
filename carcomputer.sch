@@ -11004,6 +11004,9 @@ general purpose rectifier, 1 A</description>
 <part name="X1" library="con-jst-custom" deviceset="?2B-ZR" device="2.5"/>
 <part name="X2" library="con-jst-custom" deviceset="?2B-ZR" device="2.5"/>
 <part name="CAN_TERM_RESISTOR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="5k"/>
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -11099,6 +11102,7 @@ protection</text>
 <wire x1="102.616" y1="-169.418" x2="101.346" y2="-169.418" width="0.1524" layer="97"/>
 <wire x1="101.346" y1="-169.418" x2="101.346" y2="-168.656" width="0.1524" layer="97"/>
 <wire x1="101.346" y1="-169.418" x2="101.346" y2="-170.18" width="0.1524" layer="97"/>
+<text x="236.22" y="12.7" size="1.778" layer="97">Checked</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="-45.72" y="40.64" smashed="yes" rot="R90">
@@ -11625,6 +11629,17 @@ protection</text>
 <attribute name="NAME" x="-176.53" y="-10.795" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-176.53" y="0" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="GND22" gate="1" x="236.22" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="233.68" y="-33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="R24" gate="G$1" x="236.22" y="-7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="237.7186" y="-3.81" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="232.918" y="-3.81" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R25" gate="G$1" x="236.22" y="-20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="234.7214" y="-24.13" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="239.522" y="-24.13" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12048,6 +12063,11 @@ protection</text>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="-162.56" y1="114.3" x2="-160.02" y2="114.3" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+<wire x1="236.22" y1="-25.4" x2="236.22" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -12148,25 +12168,17 @@ protection</text>
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="MISO"/>
-<wire x1="-63.5" y1="134.62" x2="-81.28" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="134.62" x2="-81.28" y2="144.78" width="0.1524" layer="91"/>
-<label x="-81.28" y="144.78" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP_SPI_1" gate="A" pin="1"/>
-<wire x1="-35.56" y1="-58.42" x2="-40.64" y2="-58.42" width="0.1524" layer="91"/>
-<label x="-40.64" y="-58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$5" gate="G$1" pin="MISO"/>
-<wire x1="35.56" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<label x="33.02" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="IO13"/>
 <wire x1="-63.5" y1="22.86" x2="-66.04" y2="22.86" width="0.1524" layer="91"/>
 <label x="-66.04" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="231.14" y1="-15.24" x2="236.22" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="-15.24" x2="236.22" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="236.22" y="-15.24"/>
+<label x="231.14" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
@@ -12828,6 +12840,29 @@ protection</text>
 <label x="-172.72" y="-7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="SPI_MISO_5V" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="MISO"/>
+<wire x1="-63.5" y1="134.62" x2="-81.28" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="134.62" x2="-81.28" y2="144.78" width="0.1524" layer="91"/>
+<label x="-81.28" y="144.78" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="MISO"/>
+<wire x1="35.56" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<label x="33.02" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="236.22" y1="-2.54" x2="236.22" y2="0" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<label x="236.22" y="0" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP_SPI_1" gate="A" pin="1"/>
+<wire x1="-35.56" y1="-58.42" x2="-40.64" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-40.64" y="-58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -12835,7 +12870,7 @@ protection</text>
 <approved hash="104,1,220.98,114.3,IC1P,V+,PWR_IN+,,,"/>
 <approved hash="104,1,220.98,99.06,IC1P,V-,GND,,,"/>
 <approved hash="113,1,139.647,96.52,ECU,,,,,"/>
-<approved hash="113,1,139.79,165.1,APP,,,,,"/>
+<approved hash="113,1,139.79,157.48,APP,,,,,"/>
 <approved hash="113,1,-182.876,-61.1861,JP_UART0,,,,,"/>
 <approved hash="113,1,-147.316,-61.1861,JP_UART2,,,,,"/>
 <approved hash="113,1,-113.547,-61.1861,JP_I2C_1,,,,,"/>
@@ -12846,8 +12881,8 @@ protection</text>
 <approved hash="113,1,-85.6104,-38.3261,JP_PWR_12V,,,,,"/>
 <approved hash="113,1,-31.7923,-59.4639,JP_SPI_1,,,,,"/>
 <approved hash="113,1,99.06,205.445,RESET,,,,,"/>
-<approved hash="113,1,129.691,-81.28,ENGINE_CUTOFF_CONN,,,,,"/>
-<approved hash="113,1,135.181,-162.56,CLAXON_CONN,,,,,"/>
+<approved hash="113,1,129.691,-96.52,ENGINE_CUTOFF_CONN,,,,,"/>
+<approved hash="113,1,135.181,-177.8,CLAXON_CONN,,,,,"/>
 <approved hash="113,1,-190.718,-7.84606,CAN_TERM_RESISTOR,,,,,"/>
 </errors>
 </schematic>
