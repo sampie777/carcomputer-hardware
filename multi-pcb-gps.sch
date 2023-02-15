@@ -5092,12 +5092,12 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <description>&lt;b&gt;ZH CONNECTOR&lt;/b&gt; 1.5 mm, 4 pin 1 row&lt;p&gt;
 Source: http://www.jst.com .. eZH.pdf</description>
 <gates>
-<gate name="-1" symbol="PM-VN" x="0" y="0" addlevel="always"/>
-<gate name="-2" symbol="PM-N" x="0" y="-2.54" addlevel="always"/>
-<gate name="-3" symbol="PM-N" x="0" y="-5.08" addlevel="always"/>
-<gate name="-4" symbol="PM-N" x="0" y="-7.62" addlevel="always"/>
-<gate name="-5" symbol="PM-N" x="0" y="-10.16" addlevel="always"/>
-<gate name="-6" symbol="PM-N" x="0" y="-12.7" addlevel="always"/>
+<gate name="-1" symbol="PM-VN" x="0" y="5.08" addlevel="always"/>
+<gate name="-2" symbol="PM-N" x="0" y="2.54" addlevel="always"/>
+<gate name="-3" symbol="PM-N" x="0" y="0" addlevel="always"/>
+<gate name="-4" symbol="PM-N" x="0" y="-2.54" addlevel="always"/>
+<gate name="-5" symbol="PM-N" x="0" y="-5.08" addlevel="always"/>
+<gate name="-6" symbol="PM-N" x="0" y="-7.62" addlevel="always"/>
 </gates>
 <devices>
 <device name="" package="B6B-ZR2.5">
@@ -5143,9 +5143,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X1" library="con-jst-custom" deviceset="?6B-ZR" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="X1" library="con-jst-custom" deviceset="?6B-ZR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5204,33 +5204,33 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <attribute name="NAME" x="158.5214" y="-24.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="163.322" y="-24.13" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND1" gate="1" x="-170.18" y="-71.12" smashed="yes">
-<attribute name="VALUE" x="-172.72" y="-73.66" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="-187.96" y="-68.58" smashed="yes">
+<attribute name="VALUE" x="-190.5" y="-71.12" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-1" x="-180.34" y="-53.34" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-181.356" y="-54.102" size="1.524" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-176.276" y="-51.816" size="1.778" layer="96" rot="MR0"/>
+<instance part="P+2" gate="1" x="-187.96" y="-43.18" smashed="yes">
+<attribute name="VALUE" x="-190.5" y="-48.26" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="X1" gate="-2" x="-180.34" y="-55.88" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-181.356" y="-56.642" size="1.524" layer="95" rot="MR0"/>
+<instance part="+3V1" gate="G$1" x="-180.34" y="-53.34" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-185.42" y="-50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-3" x="-180.34" y="-58.42" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-181.356" y="-59.182" size="1.524" layer="95" rot="MR0"/>
+<instance part="X1" gate="-1" x="-198.12" y="-63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="-199.136" y="-62.738" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-194.056" y="-65.024" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="X1" gate="-4" x="-180.34" y="-60.96" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-181.356" y="-61.722" size="1.524" layer="95" rot="MR0"/>
+<instance part="X1" gate="-2" x="-198.12" y="-60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="-199.136" y="-60.198" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-5" x="-180.34" y="-63.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-181.356" y="-64.262" size="1.524" layer="95" rot="MR0"/>
+<instance part="X1" gate="-3" x="-198.12" y="-58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="-199.136" y="-57.658" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-6" x="-180.34" y="-66.04" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-181.356" y="-66.802" size="1.524" layer="95" rot="MR0"/>
+<instance part="X1" gate="-4" x="-198.12" y="-55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="-199.136" y="-55.118" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="P+2" gate="1" x="-170.18" y="-45.72" smashed="yes">
-<attribute name="VALUE" x="-172.72" y="-50.8" size="1.778" layer="96" rot="R90"/>
+<instance part="X1" gate="-5" x="-198.12" y="-53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="-199.136" y="-52.578" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="-165.1" y="-55.88" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-170.18" y="-53.34" size="1.778" layer="96"/>
+<instance part="X1" gate="-6" x="-198.12" y="-50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="-199.136" y="-50.038" size="1.524" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -5247,9 +5247,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <junction x="160.02" y="2.54"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-2" pin="1"/>
+<pinref part="X1" gate="-5" pin="1"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="-175.26" y1="-55.88" x2="-167.64" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="-193.04" y1="-53.34" x2="-182.88" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5275,10 +5275,10 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <wire x1="160.02" y1="-25.4" x2="160.02" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-175.26" y1="-66.04" x2="-170.18" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="-170.18" y1="-66.04" x2="-170.18" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-6" pin="1"/>
+<wire x1="-187.96" y1="-63.5" x2="-187.96" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-1" pin="1"/>
+<wire x1="-193.04" y1="-63.5" x2="-187.96" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -5300,9 +5300,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<pinref part="X1" gate="-1" pin="1"/>
-<wire x1="-170.18" y1="-48.26" x2="-170.18" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="-170.18" y1="-53.34" x2="-175.26" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="-187.96" y1="-45.72" x2="-187.96" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-6" pin="1"/>
+<wire x1="-193.04" y1="-50.8" x2="-187.96" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART2_RX" class="0">
@@ -5315,9 +5315,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <junction x="160.02" y="-15.24"/>
 </segment>
 <segment>
-<label x="-170.18" y="-60.96" size="1.778" layer="95" xref="yes"/>
-<wire x1="-170.18" y1="-60.96" x2="-175.26" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-4" pin="1"/>
+<label x="-187.96" y="-58.42" size="1.778" layer="95" xref="yes"/>
+<pinref part="X1" gate="-3" pin="1"/>
+<wire x1="-193.04" y1="-58.42" x2="-187.96" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART2_TX" class="0">
@@ -5330,9 +5330,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <junction x="160.02" y="-7.62"/>
 </segment>
 <segment>
-<label x="-170.18" y="-58.42" size="1.778" layer="95" xref="yes"/>
-<wire x1="-175.26" y1="-58.42" x2="-170.18" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-3" pin="1"/>
+<label x="-187.96" y="-55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="X1" gate="-4" pin="1"/>
+<wire x1="-193.04" y1="-55.88" x2="-187.96" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_TX" class="0">
@@ -5381,9 +5381,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <label x="17.78" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-175.26" y1="-63.5" x2="-170.18" y2="-63.5" width="0.1524" layer="91"/>
-<label x="-170.18" y="-63.5" size="1.778" layer="95" xref="yes"/>
-<pinref part="X1" gate="-5" pin="1"/>
+<label x="-187.96" y="-60.96" size="1.778" layer="95" xref="yes"/>
+<pinref part="X1" gate="-2" pin="1"/>
+<wire x1="-187.96" y1="-60.96" x2="-193.04" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

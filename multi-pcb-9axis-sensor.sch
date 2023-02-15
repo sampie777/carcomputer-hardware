@@ -285,10 +285,10 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <description>&lt;b&gt;ZH CONNECTOR&lt;/b&gt; 1.5 mm, 4 pin 1 row&lt;p&gt;
 Source: http://www.jst.com .. eZH.pdf</description>
 <gates>
-<gate name="-1" symbol="PM-VN" x="0" y="0" addlevel="always"/>
-<gate name="-2" symbol="PM-N" x="0" y="-2.54" addlevel="always"/>
-<gate name="-3" symbol="PM-N" x="0" y="-5.08" addlevel="always"/>
-<gate name="-4" symbol="PM-N" x="0" y="-7.62" addlevel="always"/>
+<gate name="-1" symbol="PM-VN" x="0" y="2.54" addlevel="always"/>
+<gate name="-2" symbol="PM-N" x="0" y="0" addlevel="always"/>
+<gate name="-3" symbol="PM-N" x="0" y="-2.54" addlevel="always"/>
+<gate name="-4" symbol="PM-N" x="0" y="-5.08" addlevel="always"/>
 </gates>
 <devices>
 <device name="B" package="B4B-ZR">
@@ -384,18 +384,18 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <instance part="+3V1" gate="G$1" x="-106.68" y="-50.8" smashed="yes">
 <attribute name="VALUE" x="-109.22" y="-55.88" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="X1" gate="-1" x="-116.84" y="-55.88" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-117.856" y="-56.642" size="1.524" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-112.776" y="-54.356" size="1.778" layer="96" rot="MR0"/>
+<instance part="X1" gate="-1" x="-116.84" y="-63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="-117.856" y="-62.738" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-112.776" y="-65.024" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="X1" gate="-2" x="-116.84" y="-58.42" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-117.856" y="-59.182" size="1.524" layer="95" rot="MR0"/>
+<instance part="X1" gate="-2" x="-116.84" y="-60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="-117.856" y="-60.198" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-3" x="-116.84" y="-60.96" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-117.856" y="-61.722" size="1.524" layer="95" rot="MR0"/>
+<instance part="X1" gate="-3" x="-116.84" y="-58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="-117.856" y="-57.658" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-4" x="-116.84" y="-63.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-117.856" y="-64.262" size="1.524" layer="95" rot="MR0"/>
+<instance part="X1" gate="-4" x="-116.84" y="-55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="-117.856" y="-55.118" size="1.524" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -411,8 +411,8 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <segment>
 <wire x1="-106.68" y1="-55.88" x2="-106.68" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<pinref part="X1" gate="-1" pin="1"/>
-<wire x1="-106.68" y1="-55.88" x2="-111.76" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-4" pin="1"/>
+<wire x1="-111.76" y1="-55.88" x2="-106.68" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -429,7 +429,7 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <segment>
 <wire x1="-106.68" y1="-63.5" x2="-106.68" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<pinref part="X1" gate="-4" pin="1"/>
+<pinref part="X1" gate="-1" pin="1"/>
 <wire x1="-106.68" y1="-63.5" x2="-111.76" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -442,7 +442,7 @@ Source: http://www.jst.com .. eZH.pdf</description>
 </segment>
 <segment>
 <label x="-106.68" y="-60.96" size="1.778" layer="95" xref="yes"/>
-<pinref part="X1" gate="-3" pin="1"/>
+<pinref part="X1" gate="-2" pin="1"/>
 <wire x1="-111.76" y1="-60.96" x2="-106.68" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -455,7 +455,7 @@ Source: http://www.jst.com .. eZH.pdf</description>
 </segment>
 <segment>
 <label x="-106.68" y="-58.42" size="1.778" layer="95" xref="yes"/>
-<pinref part="X1" gate="-2" pin="1"/>
+<pinref part="X1" gate="-3" pin="1"/>
 <wire x1="-106.68" y1="-58.42" x2="-111.76" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
