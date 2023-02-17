@@ -5151,19 +5151,19 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <sheet>
 <plain>
 <text x="45.72" y="154.94" size="1.778" layer="97">Checked</text>
-<text x="187.96" y="12.7" size="1.778" layer="97">Checked</text>
-<text x="160.02" y="12.7" size="1.778" layer="97">LEVEL CONVERTER</text>
+<text x="66.04" y="86.36" size="1.778" layer="97">Checked</text>
+<text x="38.1" y="86.36" size="1.778" layer="97">LEVEL CONVERTER</text>
 </plain>
 <instances>
-<instance part="JP_UART2" gate="A" x="-147.32" y="-58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="-140.97" y="-66.675" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-140.97" y="-50.8" size="1.778" layer="96" rot="R180"/>
+<instance part="JP_UART2" gate="A" x="-38.1" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="-31.75" y="98.425" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-31.75" y="114.3" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+10" gate="1" x="-139.7" y="-50.8" smashed="yes">
-<attribute name="VALUE" x="-142.24" y="-55.88" size="1.778" layer="96" rot="R90"/>
+<instance part="P+10" gate="1" x="-30.48" y="114.3" smashed="yes">
+<attribute name="VALUE" x="-33.02" y="109.22" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND14" gate="1" x="-139.7" y="-68.58" smashed="yes">
-<attribute name="VALUE" x="-142.24" y="-71.12" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="-30.48" y="96.52" smashed="yes">
+<attribute name="VALUE" x="-33.02" y="93.98" size="1.778" layer="96"/>
 </instance>
 <instance part="GND27" gate="1" x="76.2" y="104.14" smashed="yes">
 <attribute name="VALUE" x="73.66" y="101.6" size="1.778" layer="96"/>
@@ -5175,62 +5175,62 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <attribute name="VALUE" x="27.94" y="139.7" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$6" gate="G$1" x="50.8" y="127" smashed="yes"/>
-<instance part="GND31" gate="1" x="160.02" y="-30.48" smashed="yes">
-<attribute name="VALUE" x="157.48" y="-33.02" size="1.778" layer="96"/>
+<instance part="GND31" gate="1" x="38.1" y="43.18" smashed="yes">
+<attribute name="VALUE" x="35.56" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="180.34" y="7.62" smashed="yes">
-<attribute name="VALUE" x="177.8" y="2.54" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="1" x="58.42" y="81.28" smashed="yes">
+<attribute name="VALUE" x="55.88" y="76.2" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V6" gate="G$1" x="160.02" y="7.62" smashed="yes">
-<attribute name="VALUE" x="157.48" y="2.54" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V6" gate="G$1" x="38.1" y="81.28" smashed="yes">
+<attribute name="VALUE" x="35.56" y="76.2" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R16" gate="G$1" x="170.18" y="-15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="173.99" y="-16.7386" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="173.99" y="-11.938" size="1.778" layer="96" rot="R180"/>
+<instance part="R16" gate="G$1" x="48.26" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="52.07" y="56.9214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="52.07" y="61.722" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="Q1" gate="1" x="170.18" y="-5.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="172.72" y="-10.16" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="167.64" y="-10.16" size="1.778" layer="96" rot="R180"/>
+<instance part="Q1" gate="1" x="48.26" y="68.58" smashed="yes" rot="R270">
+<attribute name="NAME" x="50.8" y="63.5" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="45.72" y="63.5" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R22" gate="G$1" x="160.02" y="-2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="158.5214" y="-6.35" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="163.322" y="-6.35" size="1.778" layer="96" rot="R90"/>
+<instance part="R22" gate="G$1" x="38.1" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.6014" y="67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="41.402" y="67.31" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R23" gate="G$1" x="180.34" y="-2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="178.8414" y="-6.35" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="183.642" y="-6.35" size="1.778" layer="96" rot="R90"/>
+<instance part="R23" gate="G$1" x="58.42" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.9214" y="67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="61.722" y="67.31" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R29" gate="G$1" x="160.02" y="-20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="158.5214" y="-24.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="163.322" y="-24.13" size="1.778" layer="96" rot="R90"/>
+<instance part="R29" gate="G$1" x="38.1" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.6014" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="41.402" y="49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND1" gate="1" x="-187.96" y="-68.58" smashed="yes">
-<attribute name="VALUE" x="-190.5" y="-71.12" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="-30.48" y="129.54" smashed="yes">
+<attribute name="VALUE" x="-33.02" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="P+2" gate="1" x="-187.96" y="-43.18" smashed="yes">
-<attribute name="VALUE" x="-190.5" y="-48.26" size="1.778" layer="96" rot="R90"/>
+<instance part="P+2" gate="1" x="-30.48" y="154.94" smashed="yes">
+<attribute name="VALUE" x="-33.02" y="149.86" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="-180.34" y="-53.34" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-185.42" y="-50.8" size="1.778" layer="96"/>
+<instance part="+3V1" gate="G$1" x="-22.86" y="144.78" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-27.94" y="147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-1" x="-198.12" y="-63.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-199.136" y="-62.738" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-194.056" y="-65.024" size="1.778" layer="96" rot="R180"/>
+<instance part="X1" gate="-1" x="-40.64" y="134.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="-41.656" y="135.382" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-36.576" y="133.096" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="X1" gate="-2" x="-198.12" y="-60.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="-199.136" y="-60.198" size="1.524" layer="95" rot="R180"/>
+<instance part="X1" gate="-2" x="-40.64" y="137.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="-41.656" y="137.922" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-3" x="-198.12" y="-58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="-199.136" y="-57.658" size="1.524" layer="95" rot="R180"/>
+<instance part="X1" gate="-3" x="-40.64" y="139.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="-41.656" y="140.462" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-4" x="-198.12" y="-55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="-199.136" y="-55.118" size="1.524" layer="95" rot="R180"/>
+<instance part="X1" gate="-4" x="-40.64" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="-41.656" y="143.002" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-5" x="-198.12" y="-53.34" smashed="yes" rot="R180">
-<attribute name="NAME" x="-199.136" y="-52.578" size="1.524" layer="95" rot="R180"/>
+<instance part="X1" gate="-5" x="-40.64" y="144.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="-41.656" y="145.542" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-6" x="-198.12" y="-50.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="-199.136" y="-50.038" size="1.524" layer="95" rot="R180"/>
+<instance part="X1" gate="-6" x="-40.64" y="147.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="-41.656" y="148.082" size="1.524" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -5240,23 +5240,23 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <segment>
 <pinref part="R22" gate="G$1" pin="2"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
-<wire x1="160.02" y1="2.54" x2="160.02" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="76.2" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="1" pin="G"/>
-<wire x1="170.18" y1="0" x2="170.18" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="2.54" x2="160.02" y2="2.54" width="0.1524" layer="91"/>
-<junction x="160.02" y="2.54"/>
+<wire x1="48.26" y1="73.66" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+<junction x="38.1" y="76.2"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-5" pin="1"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="-193.04" y1="-53.34" x2="-182.88" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="144.78" x2="-25.4" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="JP_UART2" gate="A" pin="1"/>
-<wire x1="-144.78" y1="-63.5" x2="-139.7" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="-63.5" x2="-139.7" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="101.6" x2="-30.48" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="101.6" x2="-30.48" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -5272,20 +5272,20 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <segment>
 <pinref part="R29" gate="G$1" pin="1"/>
 <pinref part="GND31" gate="1" pin="GND"/>
-<wire x1="160.02" y1="-25.4" x2="160.02" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="48.26" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="-187.96" y1="-63.5" x2="-187.96" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="134.62" x2="-30.48" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-1" pin="1"/>
-<wire x1="-193.04" y1="-63.5" x2="-187.96" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="134.62" x2="-30.48" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="JP_UART2" gate="A" pin="4"/>
-<wire x1="-144.78" y1="-55.88" x2="-139.7" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="-55.88" x2="-139.7" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="109.22" x2="-30.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="109.22" x2="-30.48" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -5296,43 +5296,43 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="5.08" x2="180.34" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="78.74" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<wire x1="-187.96" y1="-45.72" x2="-187.96" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="152.4" x2="-30.48" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-6" pin="1"/>
-<wire x1="-193.04" y1="-50.8" x2="-187.96" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="147.32" x2="-30.48" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART2_RX" class="0">
 <segment>
-<label x="152.4" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="30.48" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="-15.24" x2="160.02" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="58.42" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="-15.24" x2="165.1" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="160.02" y="-15.24"/>
+<wire x1="38.1" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
+<junction x="38.1" y="58.42"/>
 </segment>
 <segment>
-<label x="-187.96" y="-58.42" size="1.778" layer="95" xref="yes"/>
+<label x="-30.48" y="139.7" size="1.778" layer="95" xref="yes"/>
 <pinref part="X1" gate="-3" pin="1"/>
-<wire x1="-193.04" y1="-58.42" x2="-187.96" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="139.7" x2="-30.48" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART2_TX" class="0">
 <segment>
-<label x="152.4" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="30.48" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="-7.62" x2="160.02" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="1" pin="S"/>
-<wire x1="160.02" y1="-7.62" x2="165.1" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="160.02" y="-7.62"/>
+<wire x1="38.1" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
+<junction x="38.1" y="66.04"/>
 </segment>
 <segment>
-<label x="-187.96" y="-55.88" size="1.778" layer="95" xref="yes"/>
+<label x="-30.48" y="142.24" size="1.778" layer="95" xref="yes"/>
 <pinref part="X1" gate="-4" pin="1"/>
-<wire x1="-193.04" y1="-55.88" x2="-187.96" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="142.24" x2="-30.48" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_TX" class="0">
@@ -5342,14 +5342,14 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <label x="25.4" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="-15.24" x2="187.96" y2="-15.24" width="0.1524" layer="91"/>
-<label x="187.96" y="-15.24" size="1.778" layer="95" xref="yes"/>
+<wire x1="53.34" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
+<label x="66.04" y="58.42" size="1.778" layer="95" xref="yes"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<label x="-139.7" y="-60.96" size="1.778" layer="95" xref="yes"/>
+<label x="-30.48" y="104.14" size="1.778" layer="95" xref="yes"/>
 <pinref part="JP_UART2" gate="A" pin="2"/>
-<wire x1="-144.78" y1="-60.96" x2="-139.7" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="104.14" x2="-30.48" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_RX" class="0">
@@ -5359,17 +5359,17 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <label x="25.4" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="187.96" y="-7.62" size="1.778" layer="95" xref="yes"/>
+<label x="66.04" y="66.04" size="1.778" layer="95" xref="yes"/>
 <pinref part="Q1" gate="1" pin="D"/>
 <pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="-7.62" x2="180.34" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="-7.62" x2="187.96" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="180.34" y="-7.62"/>
+<wire x1="53.34" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="66.04" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
+<junction x="58.42" y="66.04"/>
 </segment>
 <segment>
-<label x="-139.7" y="-58.42" size="1.778" layer="95" xref="yes"/>
+<label x="-30.48" y="106.68" size="1.778" layer="95" xref="yes"/>
 <pinref part="JP_UART2" gate="A" pin="3"/>
-<wire x1="-144.78" y1="-58.42" x2="-139.7" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="106.68" x2="-30.48" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MCU_RESET" class="0">
@@ -5381,9 +5381,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <label x="17.78" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="-187.96" y="-60.96" size="1.778" layer="95" xref="yes"/>
+<label x="-30.48" y="137.16" size="1.778" layer="95" xref="yes"/>
 <pinref part="X1" gate="-2" pin="1"/>
-<wire x1="-187.96" y1="-60.96" x2="-193.04" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="137.16" x2="-35.56" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
