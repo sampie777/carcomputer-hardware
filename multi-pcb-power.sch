@@ -6253,10 +6253,10 @@ protection</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,1,-184.67,-38.3261,JP_PWR_3V3,,,,,"/>
-<approved hash="113,1,-149.82,-38.3261,JP_PWR_5V_1,,,,,"/>
-<approved hash="113,1,-116.8,-38.3261,JP_PWR_5V_2,,,,,"/>
-<approved hash="113,1,-85.6104,-38.3261,JP_PWR_12V,,,,,"/>
+<approved hash="113,1,-103.39,154.714,JP_PWR_3V3,,,,,"/>
+<approved hash="113,1,-68.54,154.714,JP_PWR_5V_1,,,,,"/>
+<approved hash="113,1,-35.52,154.714,JP_PWR_5V_2,,,,,"/>
+<approved hash="113,1,-4.3304,154.714,JP_PWR_12V,,,,,"/>
 </errors>
 </schematic>
 </drawing>
