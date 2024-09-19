@@ -133,13 +133,14 @@ UsedLibraryUrn="urn:adsk.eagle:library:196"
 UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
+UsedLibrary="F:/Users/samuel/Documents/EAGLE/libraries/samuel.lbr"
 UsedLibrary="libraries/sd-mmc.lbr"
 
 [Win_1]
 Type="Schematic Editor"
 Number=2
 File="multi-pcb-power.sch"
-View="-103.512 135.137 -5.41371 278.33"
+View="-8.1913 120.597 73.5573 239.925"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -178,15 +179,15 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -103.512 135.137 -5.41371 278.33"
+Views=" 1: -8.1913 120.597 73.5573 239.925"
 Sheet="1"
 
 [Win_2]
 Type="Board Editor"
 Number=1
 File="multi-pcb-power.brd"
-View="-0.687025 -4.87247 56.6546 53.8107"
-WireWidths=" 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.508 0.6096 0.8128 1.016 2.54 0.4064 0.1524 1.778 1.27"
+View="-8.14941 -7.45428 81.9027 38.985"
+WireWidths=" 0.1016 0.127 0.15 0.2 0.254 0.3048 0.6096 0.8128 1.016 2.54 0.1524 0.508 0.4064 0.2032 1.27 1.778"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
 ViaDiameters=" 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 0.95 1 1.05 1.1 1.15 1.2 1.3 0"
