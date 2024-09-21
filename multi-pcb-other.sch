@@ -5132,29 +5132,33 @@ Source: http://www.jst.com .. eZH.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="sd-mmc">
+<library name="samuel">
+<description>&lt;b&gt;J.S.T. Connectors&lt;/b&gt;&lt;p&gt;
+J.S.T Mfg Co.,Ltd.&lt;p&gt;
+http://www.jst-mfg.com&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="HKD-MICRO-SD-BREAKOUT">
-<pad name="GND" x="-17.52" y="6.38" drill="1" diameter="1.6764"/>
-<pad name="VCC" x="-17.52" y="3.84" drill="1" diameter="1.6764"/>
-<pad name="MISO" x="-17.52" y="1.3" drill="1" diameter="1.6764"/>
-<pad name="MOSI" x="-17.52" y="-1.24" drill="1" diameter="1.6764"/>
-<pad name="SCK" x="-17.52" y="-3.78" drill="1" diameter="1.6764"/>
-<pad name="CS" x="-17.52" y="-6.32" drill="1" diameter="1.6764"/>
-<wire x1="-21" y1="12" x2="-21" y2="-12" width="0.127" layer="21"/>
-<wire x1="-21" y1="-12" x2="21" y2="-12" width="0.127" layer="21"/>
-<wire x1="21" y1="-12" x2="21" y2="12" width="0.127" layer="21"/>
-<wire x1="21" y1="12" x2="-21" y2="12" width="0.127" layer="21"/>
+<pad name="GND" x="-17.774" y="6.3546" drill="1" diameter="1.6764"/>
+<pad name="VCC" x="-17.774" y="3.8146" drill="1" diameter="1.6764"/>
+<pad name="MISO" x="-17.774" y="1.2746" drill="1" diameter="1.6764"/>
+<pad name="MOSI" x="-17.774" y="-1.2654" drill="1" diameter="1.6764"/>
+<pad name="SCK" x="-17.774" y="-3.8054" drill="1" diameter="1.6764"/>
+<pad name="CS" x="-17.774" y="-6.3454" drill="1" diameter="1.6764"/>
+<wire x1="-21.254" y1="11.9746" x2="-21.254" y2="-12.0254" width="0.127" layer="21"/>
+<wire x1="-21.254" y1="-12.0254" x2="20.746" y2="-12.0254" width="0.127" layer="21"/>
+<wire x1="20.746" y1="-12.0254" x2="20.746" y2="11.9746" width="0.127" layer="21"/>
+<wire x1="20.746" y1="11.9746" x2="-21.254" y2="11.9746" width="0.127" layer="21"/>
 <hole x="-18.2" y="9.2" drill="2.9972"/>
 <hole x="-18.2" y="-9.2" drill="2.9972"/>
 <hole x="18.2" y="9.2" drill="2.9972"/>
 <hole x="18.2" y="-9.2" drill="2.9972"/>
-<text x="-15.615" y="5.745" size="1.27" layer="21">GND</text>
-<text x="-15.615" y="3.205" size="1.27" layer="21">VCC</text>
-<text x="-15.615" y="0.665" size="1.27" layer="21">MISO</text>
-<text x="-15.615" y="-1.875" size="1.27" layer="21">MOSI</text>
-<text x="-15.615" y="-4.415" size="1.27" layer="21">SCK</text>
-<text x="-15.615" y="-6.955" size="1.27" layer="21">CS</text>
+<text x="-15.869" y="5.7196" size="1.27" layer="21">GND</text>
+<text x="-15.869" y="3.1796" size="1.27" layer="21">VCC</text>
+<text x="-15.869" y="0.6396" size="1.27" layer="21">MISO</text>
+<text x="-15.869" y="-1.9004" size="1.27" layer="21">MOSI</text>
+<text x="-15.869" y="-4.4404" size="1.27" layer="21">SCK</text>
+<text x="-15.869" y="-6.9804" size="1.27" layer="21">CS</text>
 </package>
 <package name="HKD-MICRO-SD-BREAKOUT-VERTICAL">
 <pad name="GND" x="-3.81" y="6.35" drill="1" diameter="1.6764"/>
@@ -5244,7 +5248,7 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <part name="U$2" library="MCP2515" deviceset="MCP2515_DEVBOARD" device="INVERTED" value="MCP2515_DEVBOARDINVERTED"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U$5" library="sd-mmc" deviceset="HKD-MICRO-SD-BREAKOUT" device="H"/>
+<part name="U$5" library="samuel" deviceset="HKD-MICRO-SD-BREAKOUT" device="H"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="2k"/>
