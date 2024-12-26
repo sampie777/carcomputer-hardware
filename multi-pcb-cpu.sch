@@ -5578,8 +5578,8 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="5k"/>
-<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="0"/>
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1.8k"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -6100,15 +6100,14 @@ Source: http://www.jst.com .. eZH.pdf</description>
 </net>
 <net name="CAN_CS" class="0">
 <segment>
+<label x="-177.8" y="-58.42" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP_SPI_OTHER" gate="-4" pin="1"/>
+<wire x1="-182.88" y1="-58.42" x2="-177.8" y2="-58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="U$1" gate="G$1" pin="IO2"/>
 <wire x1="-38.1" y1="17.78" x2="-35.56" y2="17.78" width="0.1524" layer="91"/>
 <label x="-35.56" y="17.78" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<label x="-177.8" y="-60.96" size="1.778" layer="95" xref="yes"/>
-<wire x1="-177.8" y1="-60.96" x2="-175.26" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="JP_SPI_OTHER" gate="-3" pin="1"/>
-<wire x1="-182.88" y1="-60.96" x2="-177.8" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI_MISO" class="0">
@@ -6139,7 +6138,6 @@ Source: http://www.jst.com .. eZH.pdf</description>
 </segment>
 <segment>
 <label x="-177.8" y="-53.34" size="1.778" layer="95" xref="yes"/>
-<wire x1="-177.8" y1="-53.34" x2="-175.26" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="JP_SPI_OTHER" gate="-6" pin="1"/>
 <wire x1="-182.88" y1="-53.34" x2="-177.8" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
@@ -6156,23 +6154,21 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <label x="-30.48" y="-83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="-177.8" y="-55.88" size="1.778" layer="95" xref="yes"/>
-<wire x1="-177.8" y1="-55.88" x2="-175.26" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="JP_SPI_OTHER" gate="-5" pin="1"/>
-<wire x1="-182.88" y1="-55.88" x2="-177.8" y2="-55.88" width="0.1524" layer="91"/>
+<label x="-177.8" y="-50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP_SPI_OTHER" gate="-7" pin="1"/>
+<wire x1="-182.88" y1="-50.8" x2="-177.8" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_INT" class="0">
 <segment>
+<label x="-177.8" y="-60.96" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP_SPI_OTHER" gate="-3" pin="1"/>
+<wire x1="-182.88" y1="-60.96" x2="-177.8" y2="-60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="U$1" gate="G$1" pin="IO4"/>
 <wire x1="-38.1" y1="20.32" x2="-35.56" y2="20.32" width="0.1524" layer="91"/>
 <label x="-35.56" y="20.32" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<label x="-177.8" y="-63.5" size="1.778" layer="95" xref="yes"/>
-<wire x1="-177.8" y1="-63.5" x2="-175.26" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="JP_SPI_OTHER" gate="-2" pin="1"/>
-<wire x1="-182.88" y1="-63.5" x2="-177.8" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C0_SDA" class="0">
@@ -6240,9 +6236,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <label x="-35.56" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="-177.8" y="-20.32" size="1.778" layer="95" xref="yes"/>
-<pinref part="JP_UART_GPS" gate="-4" pin="1"/>
-<wire x1="-182.88" y1="-20.32" x2="-177.8" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-177.8" y="-25.4" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP_UART_GPS" gate="-2" pin="1"/>
+<wire x1="-177.8" y1="-25.4" x2="-182.88" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART0_RX" class="0">
@@ -6288,10 +6284,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <label x="-35.56" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="-177.8" y="-58.42" size="1.778" layer="95" xref="yes"/>
-<wire x1="-177.8" y1="-58.42" x2="-175.26" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="JP_SPI_OTHER" gate="-4" pin="1"/>
-<wire x1="-182.88" y1="-58.42" x2="-177.8" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-177.8" y="-63.5" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP_SPI_OTHER" gate="-2" pin="1"/>
+<wire x1="-182.88" y1="-63.5" x2="-177.8" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MCU_RESET" class="0">
@@ -6311,9 +6306,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <label x="-66.04" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="-177.8" y="-25.4" size="1.778" layer="95" xref="yes"/>
-<pinref part="JP_UART_GPS" gate="-2" pin="1"/>
-<wire x1="-177.8" y1="-25.4" x2="-182.88" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-177.8" y="-20.32" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP_UART_GPS" gate="-4" pin="1"/>
+<wire x1="-182.88" y1="-20.32" x2="-177.8" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ENGINE_CUTOFF_DISABLE" class="0">
@@ -6352,10 +6347,9 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <label x="-30.48" y="-81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="-177.8" y="-50.8" size="1.778" layer="95" xref="yes"/>
-<wire x1="-177.8" y1="-50.8" x2="-175.26" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="JP_SPI_OTHER" gate="-7" pin="1"/>
-<wire x1="-182.88" y1="-50.8" x2="-177.8" y2="-50.8" width="0.1524" layer="91"/>
+<label x="-177.8" y="-55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP_SPI_OTHER" gate="-5" pin="1"/>
+<wire x1="-182.88" y1="-55.88" x2="-177.8" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

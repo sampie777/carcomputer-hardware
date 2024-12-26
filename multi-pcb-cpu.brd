@@ -1739,13 +1739,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.8" y="11.2" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="22.8" y="20.01" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="5k" x="22.86" y="59.055" smashed="yes" rot="R180">
+<element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="0" x="22.86" y="59.055" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.4" y="57.658" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="46" x="-27.94" y="130.175" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-27.94" y="130.175" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="25.146" y="59.6138" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k" x="19.05" y="45.085" smashed="yes" rot="MR90">
+<element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1.8k" x="19.05" y="45.085" smashed="yes" rot="MR90">
 <attribute name="NAME" x="20.447" y="42.545" size="1.27" layer="26" ratio="10" rot="MR90"/>
 <attribute name="POPULARITY" value="46" x="-52.07" y="106.045" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-52.07" y="106.045" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1937,17 +1937,9 @@ design rules under a new name.</description>
 <wire x1="62.2166" y1="58.4066" x2="61.2775" y2="57.4675" width="0.508" layer="16"/>
 </signal>
 <signal name="CAN_CS">
+<contactref element="JP_SPI_OTHER" pad="4"/>
 <contactref element="U$1" pad="D2"/>
-<contactref element="JP_SPI_OTHER" pad="3"/>
-<wire x1="13.9566" y1="67.31" x2="13.9566" y2="59.6766" width="0.508" layer="16"/>
-<wire x1="17.7954" y1="27.58446875" x2="18.52446875" y2="26.8554" width="0.508" layer="16"/>
-<wire x1="18.52446875" y1="26.8554" x2="20.19053125" y2="26.8554" width="0.508" layer="16"/>
-<wire x1="10.16" y1="43.965" x2="17.7954" y2="36.3296" width="0.508" layer="16"/>
-<wire x1="17.7954" y1="36.3296" x2="17.7954" y2="27.58446875" width="0.508" layer="16"/>
-<wire x1="20.19053125" y1="26.8554" x2="21.43513125" y2="28.1" width="0.508" layer="16"/>
-<wire x1="21.43513125" y1="28.1" x2="21.58" y2="28.1" width="0.508" layer="16"/>
-<wire x1="13.9566" y1="59.6766" x2="10.16" y2="55.88" width="0.508" layer="16"/>
-<wire x1="10.16" y1="55.88" x2="10.16" y2="43.965" width="0.508" layer="16"/>
+<wire x1="21.58" y1="28.1" x2="16.4966" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_MISO">
 <contactref element="U$1" pad="D13"/>
@@ -1973,7 +1965,6 @@ design rules under a new name.</description>
 <signal name="SPI_SCK">
 <contactref element="U$1" pad="D14"/>
 <contactref element="JP_SPI_EXTRA" pad="3"/>
-<contactref element="JP_SPI_OTHER" pad="5"/>
 <wire x1="39.37" y1="66.04" x2="40.005" y2="66.04" width="0.508" layer="16"/>
 <wire x1="41.275" y1="64.77" x2="41.275" y2="62.23" width="0.508" layer="16"/>
 <wire x1="41.275" y1="62.23" x2="39.37" y2="60.325" width="0.508" layer="16"/>
@@ -1984,21 +1975,22 @@ design rules under a new name.</description>
 <wire x1="38.1" y1="67.31" x2="38.1" y2="69.85" width="0.4064" layer="16"/>
 <wire x1="38.1" y1="69.85" x2="35.56" y2="72.39" width="0.508" layer="16"/>
 <wire x1="21.5766" y1="72.39" x2="19.0366" y2="69.85" width="0.508" layer="16"/>
-<wire x1="19.0366" y1="69.85" x2="19.0366" y2="67.31" width="0.508" layer="16"/>
 <wire x1="35.56" y1="72.39" x2="21.5766" y2="72.39" width="0.508" layer="16"/>
+<contactref element="JP_SPI_OTHER" pad="7"/>
+<wire x1="19.0366" y1="69.85" x2="24.1166" y2="67.31" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CAN_INT">
+<contactref element="JP_SPI_OTHER" pad="3"/>
+<wire x1="13.9566" y1="67.31" x2="13.9566" y2="59.6766" width="0.508" layer="16"/>
+<wire x1="17.7954" y1="27.58446875" x2="18.52446875" y2="26.8554" width="0.508" layer="16"/>
+<wire x1="18.52446875" y1="26.8554" x2="20.19053125" y2="26.8554" width="0.508" layer="16"/>
+<wire x1="10.16" y1="43.965" x2="17.7954" y2="36.3296" width="0.508" layer="16"/>
+<wire x1="17.7954" y1="36.3296" x2="17.7954" y2="27.58446875" width="0.508" layer="16"/>
+<wire x1="20.19053125" y1="26.8554" x2="21.43513125" y2="28.1" width="0.508" layer="16"/>
+<wire x1="13.9566" y1="59.6766" x2="10.16" y2="55.88" width="0.508" layer="16"/>
+<wire x1="10.16" y1="55.88" x2="10.16" y2="43.965" width="0.508" layer="16"/>
 <contactref element="U$1" pad="D4"/>
-<contactref element="JP_SPI_OTHER" pad="2"/>
-<wire x1="11.4166" y1="67.31" x2="11.4166" y2="64.1216" width="0.508" layer="16"/>
-<wire x1="23.97513125" y1="28.1" x2="24.12" y2="28.1" width="0.508" layer="16"/>
-<wire x1="15.2554" y1="29.68065" x2="15.2554" y2="27.58446875" width="0.508" layer="16"/>
-<wire x1="6.985" y1="37.95105" x2="15.2554" y2="29.68065" width="0.508" layer="16"/>
-<wire x1="15.2554" y1="27.58446875" x2="16.64486875" y2="26.195" width="0.508" layer="16"/>
-<wire x1="16.64486875" y1="26.195" x2="22.07013125" y2="26.195" width="0.508" layer="16"/>
-<wire x1="22.07013125" y1="26.195" x2="23.97513125" y2="28.1" width="0.508" layer="16"/>
-<wire x1="11.4166" y1="64.1216" x2="6.985" y2="59.69" width="0.508" layer="16"/>
-<wire x1="6.985" y1="59.69" x2="6.985" y2="37.95105" width="0.508" layer="16"/>
+<wire x1="21.43513125" y1="28.1" x2="24.12" y2="28.1" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="I2C0_SDA">
 <contactref element="U$1" pad="D18"/>
@@ -2032,14 +2024,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="UART2_TX">
 <contactref element="U$1" pad="D17"/>
-<contactref element="JP_UART_GPS" pad="4"/>
-<wire x1="13.9834" y1="13.97" x2="13.9834" y2="12.0516" width="0.508" layer="16"/>
 <wire x1="13.9834" y1="12.0516" x2="15.875" y2="10.16" width="0.508" layer="16"/>
 <wire x1="15.875" y1="10.16" x2="22.86" y2="10.16" width="0.508" layer="16"/>
 <wire x1="22.86" y1="10.16" x2="24.765" y2="12.065" width="0.508" layer="16"/>
 <wire x1="29.2" y1="26.195" x2="29.2" y2="28.1" width="0.508" layer="16"/>
 <wire x1="29.2" y1="26.195" x2="24.765" y2="21.76" width="0.508" layer="16"/>
 <wire x1="24.765" y1="12.065" x2="24.765" y2="21.76" width="0.508" layer="16"/>
+<contactref element="JP_UART_GPS" pad="2"/>
+<wire x1="13.9834" y1="12.0516" x2="19.0634" y2="13.97" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="UART0_RX">
 <contactref element="U$1" pad="D3"/>
@@ -2066,18 +2058,25 @@ design rules under a new name.</description>
 </signal>
 <signal name="SD_CS">
 <contactref element="U$1" pad="D15"/>
-<contactref element="JP_SPI_OTHER" pad="4"/>
-<wire x1="16.4966" y1="67.31" x2="16.4966" y2="59.6766" width="0.508" layer="16"/>
 <wire x1="19.04" y1="38.11" x2="19.04" y2="28.1" width="0.508" layer="16"/>
 <wire x1="16.4966" y1="59.6766" x2="11.43" y2="54.61" width="0.508" layer="16"/>
 <wire x1="11.43" y1="54.61" x2="11.43" y2="45.72" width="0.508" layer="16"/>
 <wire x1="11.43" y1="45.72" x2="19.04" y2="38.11" width="0.508" layer="16"/>
+<contactref element="JP_SPI_OTHER" pad="2"/>
+<wire x1="11.4166" y1="67.31" x2="11.4166" y2="64.1216" width="0.508" layer="16"/>
+<wire x1="15.2554" y1="29.68065" x2="15.2554" y2="27.58446875" width="0.508" layer="16"/>
+<wire x1="6.985" y1="37.95105" x2="15.2554" y2="29.68065" width="0.508" layer="16"/>
+<wire x1="15.2554" y1="27.58446875" x2="16.64486875" y2="26.195" width="0.508" layer="16"/>
+<wire x1="16.64486875" y1="26.195" x2="22.07013125" y2="26.195" width="0.508" layer="16"/>
+<wire x1="22.07013125" y1="26.195" x2="23.97513125" y2="28.1" width="0.508" layer="16"/>
+<wire x1="11.4166" y1="64.1216" x2="6.985" y2="59.69" width="0.508" layer="16"/>
+<wire x1="6.985" y1="59.69" x2="6.985" y2="37.95105" width="0.508" layer="16"/>
+<wire x1="23.97513125" y1="28.1" x2="19.04" y2="28.1" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="MCU_RESET">
 <contactref element="U$1" pad="EN"/>
 <contactref element="RESET" pad="3"/>
 <contactref element="RESET" pad="4"/>
-<contactref element="JP_UART_GPS" pad="2"/>
 <wire x1="49.52" y1="53.505" x2="51.4096" y2="55.3946" width="0.508" layer="16"/>
 <wire x1="51.4096" y1="55.3946" x2="51.4096" y2="58.05855" width="0.508" layer="16"/>
 <wire x1="55.88" y1="62.52895" x2="55.88" y2="68.58" width="0.508" layer="16"/>
@@ -2089,7 +2088,6 @@ design rules under a new name.</description>
 <wire x1="63.5" y1="63.5" x2="63.5" y2="58.7756" width="0.508" layer="16"/>
 <wire x1="63.5" y1="58.7756" x2="66.1162" y2="56.1594" width="0.508" layer="16"/>
 <wire x1="57.785" y1="70.485" x2="62.23" y2="70.485" width="0.508" layer="16"/>
-<wire x1="19.0634" y1="13.97" x2="19.0634" y2="17.7934" width="0.508" layer="16"/>
 <wire x1="27.94" y1="26.67" x2="27.94" y2="30.48" width="0.508" layer="16"/>
 <wire x1="27.94" y1="30.48" x2="38.735" y2="41.275" width="0.508" layer="16"/>
 <wire x1="38.735" y1="41.275" x2="45.72" y2="41.275" width="0.508" layer="16"/>
@@ -2097,6 +2095,8 @@ design rules under a new name.</description>
 <wire x1="59.6138" y1="55.1688" x2="59.6138" y2="56.1594" width="0.508" layer="16"/>
 <wire x1="19.0634" y1="17.7934" x2="27.94" y2="26.67" width="0.508" layer="16"/>
 <wire x1="66.1162" y1="56.1594" x2="59.6138" y2="56.1594" width="0.508" layer="1"/>
+<contactref element="JP_UART_GPS" pad="4"/>
+<wire x1="13.9834" y1="13.97" x2="19.0634" y2="17.7934" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ENGINE_CUTOFF_DISABLE">
 <contactref element="U$1" pad="D26"/>
@@ -2130,12 +2130,12 @@ design rules under a new name.</description>
 <signal name="SPI_MISO_5V">
 <contactref element="R24" pad="1"/>
 <contactref element="JP_SPI_EXTRA" pad="1"/>
-<contactref element="JP_SPI_OTHER" pad="7"/>
-<wire x1="24.1166" y1="67.31" x2="24.1166" y2="61.6084" width="0.508" layer="16"/>
 <wire x1="24.1166" y1="61.6084" x2="26.67" y2="59.055" width="0.508" layer="16"/>
 <wire x1="37.465" y1="61.595" x2="29.21" y2="61.595" width="0.508" layer="16"/>
 <wire x1="26.67" y1="59.055" x2="29.21" y2="61.595" width="0.508" layer="16"/>
 <wire x1="37.465" y1="61.595" x2="39.37" y2="63.5" width="0.508" layer="16"/>
+<contactref element="JP_SPI_OTHER" pad="5"/>
+<wire x1="19.0366" y1="67.31" x2="24.1166" y2="61.6084" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
